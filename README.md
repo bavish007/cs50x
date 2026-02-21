@@ -59,10 +59,10 @@
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api?username=bavish007&show_icons=true&theme=tokyonight&hide_border=true" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bavish007&layout=compact&theme=tokyonight&hide_border=true" />
       </td>
     </tr>
   </table>
@@ -71,7 +71,7 @@
 ## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://github.com/bavish007/bavish007/blob/output/github-contribution-grid-snake.svg" alt="snake" />
 </div>
 
 ## 📂 Complete Index
@@ -95,6 +95,6 @@
 
 ---
 <div align="center">
-  <b>System Architecture by [Your Name]</b><br />
+  <b>System Architecture by [Bavish Reddy Muske]</b><br />
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="30" />
 </div>
