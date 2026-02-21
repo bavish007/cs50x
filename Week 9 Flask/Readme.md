@@ -24,250 +24,144 @@ In this week, I transitioned from static HTML pages to building dynamic web appl
 
 ## 🗂️ Complete File Index
 
-* 📂 **Week 9 Flask**
-  * 📂 **Lecture**
-    * 📂 **Additional Concepts**
-      * 📄 [`ajax.pdf`](./Lecture/Additional%20Concepts/ajax.pdf)
-      * 📄 [`flask.pdf`](./Lecture/Additional%20Concepts/flask.pdf)
-    * 📄 [`Notes.md`](./Lecture/Notes.md)
-    * 📂 **Resources**
-      * 📄 [`CS50 2025 - Lecture 9 - Flask.pptx`](./Lecture/Resources/CS50%202025%20-%20Lecture%209%20-%20Flask.pptx)
-      * 📄 [`lecture9.pdf`](./Lecture/Resources/lecture9.pdf)
-    * 📂 **Source Code**
-      * 📂 **src9**
-        * 📂 **froshims0**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims0/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims0/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`failure.html`](./Lecture/Source%20Code/src9/froshims0/templates/failure.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims0/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims0/templates/layout.html)
-            * 📄 [`success.html`](./Lecture/Source%20Code/src9/froshims0/templates/success.html)
-        * 📂 **froshims1**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims1/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims1/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`failure.html`](./Lecture/Source%20Code/src9/froshims1/templates/failure.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims1/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims1/templates/layout.html)
-            * 📄 [`success.html`](./Lecture/Source%20Code/src9/froshims1/templates/success.html)
-        * 📂 **froshims2**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims2/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims2/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`failure.html`](./Lecture/Source%20Code/src9/froshims2/templates/failure.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims2/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims2/templates/layout.html)
-            * 📄 [`success.html`](./Lecture/Source%20Code/src9/froshims2/templates/success.html)
-        * 📂 **froshims3**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims3/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims3/requirements.txt)
-          * 📂 **static**
-            * 📄 [`cat.jpg`](./Lecture/Source%20Code/src9/froshims3/static/cat.jpg)
-          * 📂 **templates**
-            * 📄 [`error.html`](./Lecture/Source%20Code/src9/froshims3/templates/error.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims3/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims3/templates/layout.html)
-            * 📄 [`success.html`](./Lecture/Source%20Code/src9/froshims3/templates/success.html)
-        * 📂 **froshims4**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims4/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims4/requirements.txt)
-          * 📂 **static**
-            * 📄 [`cat.jpg`](./Lecture/Source%20Code/src9/froshims4/static/cat.jpg)
-          * 📂 **templates**
-            * 📄 [`error.html`](./Lecture/Source%20Code/src9/froshims4/templates/error.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims4/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims4/templates/layout.html)
-            * 📄 [`registrants.html`](./Lecture/Source%20Code/src9/froshims4/templates/registrants.html)
-        * 📂 **froshims5**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims5/app.py)
-          * 📄 [`froshims.db`](./Lecture/Source%20Code/src9/froshims5/froshims.db)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims5/requirements.txt)
-          * 📂 **static**
-            * 📄 [`cat.jpg`](./Lecture/Source%20Code/src9/froshims5/static/cat.jpg)
-          * 📂 **templates**
-            * 📄 [`error.html`](./Lecture/Source%20Code/src9/froshims5/templates/error.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims5/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims5/templates/layout.html)
-            * 📄 [`registrants.html`](./Lecture/Source%20Code/src9/froshims5/templates/registrants.html)
-        * 📂 **froshims6**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims6/app.py)
-          * 📄 [`froshims.db`](./Lecture/Source%20Code/src9/froshims6/froshims.db)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims6/requirements.txt)
-          * 📂 **static**
-            * 📄 [`cat.jpg`](./Lecture/Source%20Code/src9/froshims6/static/cat.jpg)
-          * 📂 **templates**
-            * 📄 [`error.html`](./Lecture/Source%20Code/src9/froshims6/templates/error.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims6/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims6/templates/layout.html)
-            * 📄 [`registrants.html`](./Lecture/Source%20Code/src9/froshims6/templates/registrants.html)
-        * 📂 **froshims7**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/froshims7/app.py)
-          * 📄 [`froshims.db`](./Lecture/Source%20Code/src9/froshims7/froshims.db)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/froshims7/requirements.txt)
-          * 📂 **static**
-            * 📄 [`cat.jpg`](./Lecture/Source%20Code/src9/froshims7/static/cat.jpg)
-          * 📂 **templates**
-            * 📄 [`error.html`](./Lecture/Source%20Code/src9/froshims7/templates/error.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/froshims7/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/froshims7/templates/layout.html)
-            * 📄 [`registrants.html`](./Lecture/Source%20Code/src9/froshims7/templates/registrants.html)
-        * 📂 **hello0**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello0/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello0/requirements.txt)
-        * 📂 **hello1**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello1/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello1/requirements.txt)
-        * 📂 **hello10**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello10/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello10/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`greet.html`](./Lecture/Source%20Code/src9/hello10/templates/greet.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello10/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/hello10/templates/layout.html)
-        * 📂 **hello2**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello2/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello2/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello2/templates/index.html)
-        * 📂 **hello3**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello3/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello3/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello3/templates/index.html)
-        * 📂 **hello4**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello4/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello4/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello4/templates/index.html)
-        * 📂 **hello5**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello5/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello5/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello5/templates/index.html)
-        * 📂 **hello6**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello6/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello6/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`greet.html`](./Lecture/Source%20Code/src9/hello6/templates/greet.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello6/templates/index.html)
-        * 📂 **hello7**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello7/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello7/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`greet.html`](./Lecture/Source%20Code/src9/hello7/templates/greet.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello7/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/hello7/templates/layout.html)
-        * 📂 **hello8**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello8/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello8/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`greet.html`](./Lecture/Source%20Code/src9/hello8/templates/greet.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello8/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/hello8/templates/layout.html)
-        * 📂 **hello9**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/hello9/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/hello9/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`greet.html`](./Lecture/Source%20Code/src9/hello9/templates/greet.html)
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/hello9/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/hello9/templates/layout.html)
-        * 📂 **login**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/login/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/login/requirements.txt)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/login/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/login/templates/layout.html)
-            * 📄 [`login.html`](./Lecture/Source%20Code/src9/login/templates/login.html)
-        * 📂 **shows0**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/shows0/app.py)
-          * 📄 [`LICENSE`](./Lecture/Source%20Code/src9/shows0/LICENSE)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/shows0/requirements.txt)
-          * 📄 [`shows.db`](./Lecture/Source%20Code/src9/shows0/shows.db)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/shows0/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/shows0/templates/layout.html)
-            * 📄 [`search.html`](./Lecture/Source%20Code/src9/shows0/templates/search.html)
-        * 📂 **shows1**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/shows1/app.py)
-          * 📄 [`LICENSE`](./Lecture/Source%20Code/src9/shows1/LICENSE)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/shows1/requirements.txt)
-          * 📄 [`shows.db`](./Lecture/Source%20Code/src9/shows1/shows.db)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/shows1/templates/index.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/shows1/templates/layout.html)
-            * 📄 [`search.html`](./Lecture/Source%20Code/src9/shows1/templates/search.html)
-        * 📂 **shows2**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/shows2/app.py)
-          * 📄 [`LICENSE`](./Lecture/Source%20Code/src9/shows2/LICENSE)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/shows2/requirements.txt)
-          * 📄 [`shows.db`](./Lecture/Source%20Code/src9/shows2/shows.db)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/shows2/templates/index.html)
-            * 📄 [`search.html`](./Lecture/Source%20Code/src9/shows2/templates/search.html)
-        * 📂 **shows3**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/shows3/app.py)
-          * 📄 [`LICENSE`](./Lecture/Source%20Code/src9/shows3/LICENSE)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/shows3/requirements.txt)
-          * 📄 [`shows.db`](./Lecture/Source%20Code/src9/shows3/shows.db)
-          * 📂 **templates**
-            * 📄 [`index.html`](./Lecture/Source%20Code/src9/shows3/templates/index.html)
-        * 📂 **store**
-          * 📄 [`app.py`](./Lecture/Source%20Code/src9/store/app.py)
-          * 📄 [`requirements.txt`](./Lecture/Source%20Code/src9/store/requirements.txt)
-          * 📄 [`store.db`](./Lecture/Source%20Code/src9/store/store.db)
-          * 📂 **templates**
-            * 📄 [`books.html`](./Lecture/Source%20Code/src9/store/templates/books.html)
-            * 📄 [`cart.html`](./Lecture/Source%20Code/src9/store/templates/cart.html)
-            * 📄 [`layout.html`](./Lecture/Source%20Code/src9/store/templates/layout.html)
-      * 📄 [`src9.pdf`](./Lecture/Source%20Code/src9.pdf)
-  * 📂 **Problem Set 9**
-    * 📂 **birthdays**
-      * 📄 [`app.py`](./Problem%20Set%209/birthdays/app.py)
-      * 📄 [`birthdays.db`](./Problem%20Set%209/birthdays/birthdays.db)
-      * 📂 **static**
-        * 📄 [`styles.css`](./Problem%20Set%209/birthdays/static/styles.css)
-      * 📂 **templates**
-        * 📄 [`index.html`](./Problem%20Set%209/birthdays/templates/index.html)
-    * 📂 **finance**
-      * 📄 [`app.py`](./Problem%20Set%209/finance/app.py)
-      * 📄 [`finance.db`](./Problem%20Set%209/finance/finance.db)
-      * 📂 **flask_session**
-        * 📄 [`2029240f6d1128be89ddc32729463129`](./Problem%20Set%209/finance/flask_session/2029240f6d1128be89ddc32729463129)
-        * 📄 [`774bc4143517efa773d4017d40eef650`](./Problem%20Set%209/finance/flask_session/774bc4143517efa773d4017d40eef650)
-      * 📄 [`helpers.py`](./Problem%20Set%209/finance/helpers.py)
-      * 📄 [`requirements.txt`](./Problem%20Set%209/finance/requirements.txt)
-      * 📂 **static**
-        * 📄 [`favicon.ico`](./Problem%20Set%209/finance/static/favicon.ico)
-        * 📄 [`I_heart_validator.png`](./Problem%20Set%209/finance/static/I_heart_validator.png)
-        * 📄 [`styles.css`](./Problem%20Set%209/finance/static/styles.css)
-      * 📂 **templates**
-        * 📄 [`apology.html`](./Problem%20Set%209/finance/templates/apology.html)
-        * 📄 [`buy.html`](./Problem%20Set%209/finance/templates/buy.html)
-        * 📄 [`history.html`](./Problem%20Set%209/finance/templates/history.html)
-        * 📄 [`index.html`](./Problem%20Set%209/finance/templates/index.html)
-        * 📄 [`layout.html`](./Problem%20Set%209/finance/templates/layout.html)
-        * 📄 [`login.html`](./Problem%20Set%209/finance/templates/login.html)
-        * 📄 [`quote.html`](./Problem%20Set%209/finance/templates/quote.html)
-        * 📄 [`register.html`](./Problem%20Set%209/finance/templates/register.html)
-        * 📄 [`sell.html`](./Problem%20Set%209/finance/templates/sell.html)
-  * 📂 **Section**
-    * 📂 **Resources**
-      * 📄 [`section9.pdf`](./Section/Resources/section9.pdf)
-    * 📂 **Source Code**
-      * 📂 **birthdays**
-        * 📄 [`app.py`](./Section/Source%20Code/birthdays/app.py)
-        * 📄 [`birthdays.db`](./Section/Source%20Code/birthdays/birthdays.db)
-        * 📂 **static**
-          * 📄 [`styles.css`](./Section/Source%20Code/birthdays/static/styles.css)
-        * 📂 **templates**
-          * 📄 [`index.html`](./Section/Source%20Code/birthdays/templates/index.html)
+<details><summary><b>📂 View Source Files</b></summary>
+
+| File | Type | Link |
+| :--- | :---: | :--- |
+| 📂 **Lecture / Additional Concepts** | Folder | [View](./Lecture/Additional%20Concepts) |
+| 📄 `ajax.pdf` | .pdf | [Download](./Lecture/Additional%20Concepts/ajax.pdf) |
+| 📄 `flask.pdf` | .pdf | [Download](./Lecture/Additional%20Concepts/flask.pdf) |
+| 📄 `Notes.md` | .md | [View](./Lecture/Notes.md) |
+| 📂 **Lecture / Resources** | Folder | [View](./Lecture/Resources) |
+| 📄 `CS50 2025 - Lecture 9 - Flask.pptx` | .pptx | [Download](./Lecture/Resources/CS50%202025%20-%20Lecture%209%20-%20Flask.pptx) |
+| 📄 `lecture9.pdf` | .pdf | [Download](./Lecture/Resources/lecture9.pdf) |
+| 📂 **Lecture / Source Code / src9 / froshims0** | Folder | [View](./Lecture/Source%20Code/src9/froshims0) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims0/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims0/requirements.txt) |
+| 📄 `failure.html` | .html | [View](./Lecture/Source%20Code/src9/froshims0/templates/failure.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims0/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims0/templates/layout.html) |
+| 📄 `success.html` | .html | [View](./Lecture/Source%20Code/src9/froshims0/templates/success.html) |
+| 📂 **Lecture / Source Code / src9 / froshims1** | Folder | [View](./Lecture/Source%20Code/src9/froshims1) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims1/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims1/requirements.txt) |
+| 📄 `failure.html` | .html | [View](./Lecture/Source%20Code/src9/froshims1/templates/failure.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims1/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims1/templates/layout.html) |
+| 📄 `success.html` | .html | [View](./Lecture/Source%20Code/src9/froshims1/templates/success.html) |
+| 📂 **Lecture / Source Code / src9 / froshims2** | Folder | [View](./Lecture/Source%20Code/src9/froshims2) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims2/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims2/requirements.txt) |
+| 📄 `failure.html` | .html | [View](./Lecture/Source%20Code/src9/froshims2/templates/failure.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims2/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims2/templates/layout.html) |
+| 📄 `success.html` | .html | [View](./Lecture/Source%20Code/src9/froshims2/templates/success.html) |
+| 📂 **Lecture / Source Code / src9 / froshims3** | Folder | [View](./Lecture/Source%20Code/src9/froshims3) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims3/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims3/requirements.txt) |
+| 📄 `cat.jpg` | .jpg | [View](./Lecture/Source%20Code/src9/froshims3/static/cat.jpg) |
+| 📄 `error.html` | .html | [View](./Lecture/Source%20Code/src9/froshims3/templates/error.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims3/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims3/templates/layout.html) |
+| 📄 `success.html` | .html | [View](./Lecture/Source%20Code/src9/froshims3/templates/success.html) |
+| 📂 **Lecture / Source Code / src9 / froshims4** | Folder | [View](./Lecture/Source%20Code/src9/froshims4) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims4/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims4/requirements.txt) |
+| 📄 `cat.jpg` | .jpg | [View](./Lecture/Source%20Code/src9/froshims4/static/cat.jpg) |
+| 📄 `error.html` | .html | [View](./Lecture/Source%20Code/src9/froshims4/templates/error.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims4/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims4/templates/layout.html) |
+| 📄 `registrants.html` | .html | [View](./Lecture/Source%20Code/src9/froshims4/templates/registrants.html) |
+| 📂 **Lecture / Source Code / src9 / froshims5** | Folder | [View](./Lecture/Source%20Code/src9/froshims5) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims5/app.py) |
+| 📄 `froshims.db` | .db | [View](./Lecture/Source%20Code/src9/froshims5/froshims.db) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims5/requirements.txt) |
+| 📄 `cat.jpg` | .jpg | [View](./Lecture/Source%20Code/src9/froshims5/static/cat.jpg) |
+| 📄 `error.html` | .html | [View](./Lecture/Source%20Code/src9/froshims5/templates/error.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims5/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims5/templates/layout.html) |
+| 📄 `registrants.html` | .html | [View](./Lecture/Source%20Code/src9/froshims5/templates/registrants.html) |
+| 📂 **Lecture / Source Code / src9 / froshims6** | Folder | [View](./Lecture/Source%20Code/src9/froshims6) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims6/app.py) |
+| 📄 `froshims.db` | .db | [View](./Lecture/Source%20Code/src9/froshims6/froshims.db) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims6/requirements.txt) |
+| 📄 `cat.jpg` | .jpg | [View](./Lecture/Source%20Code/src9/froshims6/static/cat.jpg) |
+| 📄 `error.html` | .html | [View](./Lecture/Source%20Code/src9/froshims6/templates/error.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims6/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims6/templates/layout.html) |
+| 📄 `registrants.html` | .html | [View](./Lecture/Source%20Code/src9/froshims6/templates/registrants.html) |
+| 📂 **Lecture / Source Code / src9 / froshims7** | Folder | [View](./Lecture/Source%20Code/src9/froshims7) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/froshims7/app.py) |
+| 📄 `froshims.db` | .db | [View](./Lecture/Source%20Code/src9/froshims7/froshims.db) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/froshims7/requirements.txt) |
+| 📄 `cat.jpg` | .jpg | [View](./Lecture/Source%20Code/src9/froshims7/static/cat.jpg) |
+| 📄 `error.html` | .html | [View](./Lecture/Source%20Code/src9/froshims7/templates/error.html) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/froshims7/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/froshims7/templates/layout.html) |
+| 📄 `registrants.html` | .html | [View](./Lecture/Source%20Code/src9/froshims7/templates/registrants.html) |
+| 📂 **Lecture / Source Code / src9 / hello0** | Folder | [View](./Lecture/Source%20Code/src9/hello0) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/hello0/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/hello0/requirements.txt) |
+| 📂 **Lecture / Source Code / src9 / hello1** | Folder | [View](./Lecture/Source%20Code/src9/hello1) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/hello1/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/hello1/requirements.txt) |
+| 📂 **Lecture / Source Code / src9 / hello2–hello10** | Folder | [View](./Lecture/Source%20Code/src9) |
+| 📄 `app.py` *(hello2–hello10)* | .py | [Browse](./Lecture/Source%20Code/src9) |
+| 📂 **Lecture / Source Code / src9 / login** | Folder | [View](./Lecture/Source%20Code/src9/login) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/login/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/login/requirements.txt) |
+| 📄 `index.html` | .html | [View](./Lecture/Source%20Code/src9/login/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/login/templates/layout.html) |
+| 📄 `login.html` | .html | [View](./Lecture/Source%20Code/src9/login/templates/login.html) |
+| 📂 **Lecture / Source Code / src9 / shows0–shows3** | Folder | [View](./Lecture/Source%20Code/src9) |
+| 📄 `app.py`, `shows.db` *(shows0–shows3)* | .py/.db | [Browse](./Lecture/Source%20Code/src9) |
+| 📂 **Lecture / Source Code / src9 / store** | Folder | [View](./Lecture/Source%20Code/src9/store) |
+| 📄 `app.py` | .py | [View](./Lecture/Source%20Code/src9/store/app.py) |
+| 📄 `requirements.txt` | .txt | [View](./Lecture/Source%20Code/src9/store/requirements.txt) |
+| 📄 `store.db` | .db | [View](./Lecture/Source%20Code/src9/store/store.db) |
+| 📄 `books.html` | .html | [View](./Lecture/Source%20Code/src9/store/templates/books.html) |
+| 📄 `cart.html` | .html | [View](./Lecture/Source%20Code/src9/store/templates/cart.html) |
+| 📄 `layout.html` | .html | [View](./Lecture/Source%20Code/src9/store/templates/layout.html) |
+| 📄 `src9.pdf` | .pdf | [Download](./Lecture/Source%20Code/src9.pdf) |
+| 📂 **Problem Set 9 / birthdays** | Folder | [View](./Problem%20Set%209/birthdays) |
+| 📄 `app.py` | .py | [View](./Problem%20Set%209/birthdays/app.py) |
+| 📄 `birthdays.db` | .db | [View](./Problem%20Set%209/birthdays/birthdays.db) |
+| 📄 `styles.css` | .css | [View](./Problem%20Set%209/birthdays/static/styles.css) |
+| 📄 `index.html` | .html | [View](./Problem%20Set%209/birthdays/templates/index.html) |
+| 📂 **Problem Set 9 / finance** | Folder | [View](./Problem%20Set%209/finance) |
+| 📄 `app.py` | .py | [View](./Problem%20Set%209/finance/app.py) |
+| 📄 `finance.db` | .db | [View](./Problem%20Set%209/finance/finance.db) |
+| 📄 `helpers.py` | .py | [View](./Problem%20Set%209/finance/helpers.py) |
+| 📄 `requirements.txt` | .txt | [View](./Problem%20Set%209/finance/requirements.txt) |
+| 📄 `styles.css` | .css | [View](./Problem%20Set%209/finance/static/styles.css) |
+| 📄 `apology.html` | .html | [View](./Problem%20Set%209/finance/templates/apology.html) |
+| 📄 `buy.html` | .html | [View](./Problem%20Set%209/finance/templates/buy.html) |
+| 📄 `history.html` | .html | [View](./Problem%20Set%209/finance/templates/history.html) |
+| 📄 `index.html` | .html | [View](./Problem%20Set%209/finance/templates/index.html) |
+| 📄 `layout.html` | .html | [View](./Problem%20Set%209/finance/templates/layout.html) |
+| 📄 `login.html` | .html | [View](./Problem%20Set%209/finance/templates/login.html) |
+| 📄 `quote.html` | .html | [View](./Problem%20Set%209/finance/templates/quote.html) |
+| 📄 `register.html` | .html | [View](./Problem%20Set%209/finance/templates/register.html) |
+| 📄 `sell.html` | .html | [View](./Problem%20Set%209/finance/templates/sell.html) |
+| 📂 **Section / Resources** | Folder | [View](./Section/Resources) |
+| 📄 `section9.pdf` | .pdf | [Download](./Section/Resources/section9.pdf) |
+| 📂 **Section / Source Code / birthdays** | Folder | [View](./Section/Source%20Code/birthdays) |
+| 📄 `app.py` | .py | [View](./Section/Source%20Code/birthdays/app.py) |
+| 📄 `birthdays.db` | .db | [View](./Section/Source%20Code/birthdays/birthdays.db) |
+| 📄 `styles.css` | .css | [View](./Section/Source%20Code/birthdays/static/styles.css) |
+| 📄 `index.html` | .html | [View](./Section/Source%20Code/birthdays/templates/index.html) |
+
+</details>
 
 ## 🎥 Video Resources
 
 ### Main Lecture
 
+<div align="center">
+
 [![Lecture 9](https://img.youtube.com/vi/am7POvSZ4GE/0.jpg)](https://youtu.be/am7POvSZ4GE)
+
+</div>
 
 ### 🧠 Concept Clips
 
@@ -291,4 +185,10 @@ C$50 Finance is a comprehensive stock trading simulation project. It requires im
 This project connects all major concepts: Flask routes, SQL database management, session authentication, and API integration.
 
 ---
-[← Return to Course Index](../README.md)
+
+<div align="center">
+  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
+</div>

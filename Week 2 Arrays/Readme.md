@@ -25,67 +25,72 @@ In Week 2, the focus shifted to the low-level details of how data is stored and 
 
 ## 🗂️ Complete File Index
 
-* **Lecture**
-  * 📂 **Source Code**
-    * 📄 [`buggy0.c`](./Lecture/Source%20Code/buggy0.c)
-    * 📄 [`buggy1.c`](./Lecture/Source%20Code/buggy1.c)
-    * 📄 [`buggy2.c`](./Lecture/Source%20Code/buggy2.c)
-    * 📄 [`buggy3.c`](./Lecture/Source%20Code/buggy3.c)
-    * 📄 [`buggy4.c`](./Lecture/Source%20Code/buggy4.c)
-    * 📄 [`buggy5.c`](./Lecture/Source%20Code/buggy5.c)
-    * 📄 [`greet0.c`](./Lecture/Source%20Code/greet0.c)
-    * 📄 [`greet1.c`](./Lecture/Source%20Code/greet1.c)
-    * 📄 [`greet2.c`](./Lecture/Source%20Code/greet2.c)
-    * 📄 [`hello0.c`](./Lecture/Source%20Code/hello0.c)
-    * 📄 [`hello1.c`](./Lecture/Source%20Code/hello1.c)
-    * 📄 [`hi0.c`](./Lecture/Source%20Code/hi0.c)
-    * 📄 [`hi1.c`](./Lecture/Source%20Code/hi1.c)
-    * 📄 [`hi2.c`](./Lecture/Source%20Code/hi2.c)
-    * 📄 [`hi3.c`](./Lecture/Source%20Code/hi3.c)
-    * 📄 [`hi4.c`](./Lecture/Source%20Code/hi4.c)
-    * 📄 [`hi5.c`](./Lecture/Source%20Code/hi5.c)
-    * 📄 [`hi6.c`](./Lecture/Source%20Code/hi6.c)
-    * 📄 [`hi7.c`](./Lecture/Source%20Code/hi7.c)
-    * 📄 [`length0.c`](./Lecture/Source%20Code/length0.c)
-    * 📄 [`length1.c`](./Lecture/Source%20Code/length1.c)
-    * 📄 [`length2.c`](./Lecture/Source%20Code/length2.c)
-    * 📄 [`scores0.c`](./Lecture/Source%20Code/scores0.c)
-    * 📄 [`scores1.c`](./Lecture/Source%20Code/scores1.c)
-    * 📄 [`scores2.c`](./Lecture/Source%20Code/scores2.c)
-    * 📄 [`scores3.c`](./Lecture/Source%20Code/scores3.c)
-    * 📄 [`scores4.c`](./Lecture/Source%20Code/scores4.c)
-    * 📄 [`scores5.c`](./Lecture/Source%20Code/scores5.c)
-    * 📄 [`status.c`](./Lecture/Source%20Code/status.c)
-    * 📄 [`string0.c`](./Lecture/Source%20Code/string0.c)
-    * 📄 [`string1.c`](./Lecture/Source%20Code/string1.c)
-    * 📄 [`string2.c`](./Lecture/Source%20Code/string2.c)
-    * 📄 [`type.c`](./Lecture/Source%20Code/type.c)
-    * 📄 [`uppercase0.c`](./Lecture/Source%20Code/uppercase0.c)
-    * 📄 [`uppercase1.c`](./Lecture/Source%20Code/uppercase1.c)
-    * 📄 [`uppercase2.c`](./Lecture/Source%20Code/uppercase2.c)
+<details><summary><b>📂 View Source Files</b></summary>
 
-* **Problem Set 2**
-  * 📂 **caesar**
-    * 📄 [`caesar.c`](./Problem%20Set%202/caesar/caesar.c)
-  * 📂 **readability**
-    * 📄 [`readability.c`](./Problem%20Set%202/readability/readability.c)
-  * 📂 **scrabble**
-    * 📄 [`scrabble.c`](./Problem%20Set%202/scrabble/scrabble.c)
-  * 📂 **substitution**
-    * 📄 [`substitution.c`](./Problem%20Set%202/substitution/substitution.c)
+| File | Type | Link |
+| :--- | :---: | :--- |
+| 📂 **Lecture / Source Code** | Folder | [View](./Lecture/Source%20Code) |
+| 📄 `buggy0.c` | .c | [View](./Lecture/Source%20Code/buggy0.c) |
+| 📄 `buggy1.c` | .c | [View](./Lecture/Source%20Code/buggy1.c) |
+| 📄 `buggy2.c` | .c | [View](./Lecture/Source%20Code/buggy2.c) |
+| 📄 `buggy3.c` | .c | [View](./Lecture/Source%20Code/buggy3.c) |
+| 📄 `buggy4.c` | .c | [View](./Lecture/Source%20Code/buggy4.c) |
+| 📄 `buggy5.c` | .c | [View](./Lecture/Source%20Code/buggy5.c) |
+| 📄 `greet0.c` | .c | [View](./Lecture/Source%20Code/greet0.c) |
+| 📄 `greet1.c` | .c | [View](./Lecture/Source%20Code/greet1.c) |
+| 📄 `greet2.c` | .c | [View](./Lecture/Source%20Code/greet2.c) |
+| 📄 `hello0.c` | .c | [View](./Lecture/Source%20Code/hello0.c) |
+| 📄 `hello1.c` | .c | [View](./Lecture/Source%20Code/hello1.c) |
+| 📄 `hi0.c` | .c | [View](./Lecture/Source%20Code/hi0.c) |
+| 📄 `hi1.c` | .c | [View](./Lecture/Source%20Code/hi1.c) |
+| 📄 `hi2.c` | .c | [View](./Lecture/Source%20Code/hi2.c) |
+| 📄 `hi3.c` | .c | [View](./Lecture/Source%20Code/hi3.c) |
+| 📄 `hi4.c` | .c | [View](./Lecture/Source%20Code/hi4.c) |
+| 📄 `hi5.c` | .c | [View](./Lecture/Source%20Code/hi5.c) |
+| 📄 `hi6.c` | .c | [View](./Lecture/Source%20Code/hi6.c) |
+| 📄 `hi7.c` | .c | [View](./Lecture/Source%20Code/hi7.c) |
+| 📄 `length0.c` | .c | [View](./Lecture/Source%20Code/length0.c) |
+| 📄 `length1.c` | .c | [View](./Lecture/Source%20Code/length1.c) |
+| 📄 `length2.c` | .c | [View](./Lecture/Source%20Code/length2.c) |
+| 📄 `scores0.c` | .c | [View](./Lecture/Source%20Code/scores0.c) |
+| 📄 `scores1.c` | .c | [View](./Lecture/Source%20Code/scores1.c) |
+| 📄 `scores2.c` | .c | [View](./Lecture/Source%20Code/scores2.c) |
+| 📄 `scores3.c` | .c | [View](./Lecture/Source%20Code/scores3.c) |
+| 📄 `scores4.c` | .c | [View](./Lecture/Source%20Code/scores4.c) |
+| 📄 `scores5.c` | .c | [View](./Lecture/Source%20Code/scores5.c) |
+| 📄 `status.c` | .c | [View](./Lecture/Source%20Code/status.c) |
+| 📄 `string0.c` | .c | [View](./Lecture/Source%20Code/string0.c) |
+| 📄 `string1.c` | .c | [View](./Lecture/Source%20Code/string1.c) |
+| 📄 `string2.c` | .c | [View](./Lecture/Source%20Code/string2.c) |
+| 📄 `type.c` | .c | [View](./Lecture/Source%20Code/type.c) |
+| 📄 `uppercase0.c` | .c | [View](./Lecture/Source%20Code/uppercase0.c) |
+| 📄 `uppercase1.c` | .c | [View](./Lecture/Source%20Code/uppercase1.c) |
+| 📄 `uppercase2.c` | .c | [View](./Lecture/Source%20Code/uppercase2.c) |
+| 📂 **Problem Set 2 / caesar** | Folder | [View](./Problem%20Set%202/caesar) |
+| 📄 `caesar.c` | .c | [View](./Problem%20Set%202/caesar/caesar.c) |
+| 📂 **Problem Set 2 / readability** | Folder | [View](./Problem%20Set%202/readability) |
+| 📄 `readability.c` | .c | [View](./Problem%20Set%202/readability/readability.c) |
+| 📂 **Problem Set 2 / scrabble** | Folder | [View](./Problem%20Set%202/scrabble) |
+| 📄 `scrabble.c` | .c | [View](./Problem%20Set%202/scrabble/scrabble.c) |
+| 📂 **Problem Set 2 / substitution** | Folder | [View](./Problem%20Set%202/substitution) |
+| 📄 `substitution.c` | .c | [View](./Problem%20Set%202/substitution/substitution.c) |
+| 📂 **Section / Source Code** | Folder | [View](./Section/Source%20Code) |
+| 📄 `alphabetical.c` | .c | [View](./Section/Source%20Code/alphabetical.c) |
+| 📄 `initials.c` | .c | [View](./Section/Source%20Code/initials.c) |
+| 📄 `print.c` | .c | [View](./Section/Source%20Code/print.c) |
+| 📄 `reverse.c` | .c | [View](./Section/Source%20Code/reverse.c) |
 
-* **Section**
-  * 📂 **Source Code**
-    * 📄 [`alphabetical.c`](./Section/Source%20Code/alphabetical.c)
-    * 📄 [`initials.c`](./Section/Source%20Code/initials.c)
-    * 📄 [`print.c`](./Section/Source%20Code/print.c)
-    * 📄 [`reverse.c`](./Section/Source%20Code/reverse.c)
+</details>
 
 ## 🎥 Video Resources
 
 ### Main Lecture
 
+<div align="center">
+
 [![Lecture 2](https://img.youtube.com/vi/h5Gc1n8ZuU8/0.jpg)](https://youtu.be/h5Gc1n8ZuU8)
+
+</div>
 
 ### 🧠 Concept Clips
 
@@ -106,4 +111,10 @@ This week included several hands-on challenges to apply the concepts of arrays, 
 * **Substitution**: Write a program that implements a substitution cipher, where the key is a permutation of the 26 letters of the alphabet.
 
 ---
-[← Return to Course Index](../README.md)
+
+<div align="center">
+  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
+</div>

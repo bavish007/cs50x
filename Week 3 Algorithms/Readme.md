@@ -28,43 +28,50 @@ This week delves into the core of computer science: **Algorithms**. The focus sh
 
 ## 🗂️ Complete File Index
 
-* **Lecture**
-  * 📂 **Source Code**
-    * 📄 [`iteration.c`](./Lecture/Source%20Code/iteration.c)
-    * 📄 [`phonebook0.c`](./Lecture/Source%20Code/phonebook0.c)
-    * 📄 [`phonebook1.c`](./Lecture/Source%20Code/phonebook1.c)
-    * 📄 [`recursion.c`](./Lecture/Source%20Code/recursion.c)
-    * 📄 [`search0.c`](./Lecture/Source%20Code/search0.c)
-    * 📄 [`search1.c`](./Lecture/Source%20Code/search1.c)
-* **Problem Set 3**
-  * 📂 **plurality**
-    * 📄 [`plurality.c`](./Problem%20Set%203/plurality/plurality.c)
-  * 📂 **runoff**
-    * 📄 [`runoff.c`](./Problem%20Set%203/runoff/runoff.c)
-  * 📂 **sort**
-    * 📄 [`answers.txt`](./Problem%20Set%203/sort/answers.txt)
-    * 📄 [`random10000.txt`](./Problem%20Set%203/sort/random10000.txt)
-    * 📄 [`random5000.txt`](./Problem%20Set%203/sort/random5000.txt)
-    * 📄 [`random50000.txt`](./Problem%20Set%203/sort/random50000.txt)
-    * 📄 [`reversed10000.txt`](./Problem%20Set%203/sort/reversed10000.txt)
-    * 📄 [`reversed5000.txt`](./Problem%20Set%203/sort/reversed5000.txt)
-    * 📄 [`reversed50000.txt`](./Problem%20Set%203/sort/reversed50000.txt)
-    * 📄 [`sorted10000.txt`](./Problem%20Set%203/sort/sorted10000.txt)
-    * 📄 [`sorted5000.txt`](./Problem%20Set%203/sort/sorted5000.txt)
-    * 📄 [`sorted50000.txt`](./Problem%20Set%203/sort/sorted50000.txt)
-  * 📂 **tideman**
-    * 📄 [`tideman.c`](./Problem%20Set%203/tideman/tideman.c)
-* **Section**
-  * 📂 **Source Code**
-    * 📄 [`factorial.c`](./Section/Source%20Code/factorial.c)
-    * 📄 [`fib.c`](./Section/Source%20Code/fib.c)
-    * 📄 [`struct.c`](./Section/Source%20Code/struct.c)
+<details><summary><b>📂 View Source Files</b></summary>
+
+| File | Type | Link |
+| :--- | :---: | :--- |
+| 📂 **Lecture / Source Code** | Folder | [View](./Lecture/Source%20Code) |
+| 📄 `iteration.c` | .c | [View](./Lecture/Source%20Code/iteration.c) |
+| 📄 `phonebook0.c` | .c | [View](./Lecture/Source%20Code/phonebook0.c) |
+| 📄 `phonebook1.c` | .c | [View](./Lecture/Source%20Code/phonebook1.c) |
+| 📄 `recursion.c` | .c | [View](./Lecture/Source%20Code/recursion.c) |
+| 📄 `search0.c` | .c | [View](./Lecture/Source%20Code/search0.c) |
+| 📄 `search1.c` | .c | [View](./Lecture/Source%20Code/search1.c) |
+| 📂 **Problem Set 3 / plurality** | Folder | [View](./Problem%20Set%203/plurality) |
+| 📄 `plurality.c` | .c | [View](./Problem%20Set%203/plurality/plurality.c) |
+| 📂 **Problem Set 3 / runoff** | Folder | [View](./Problem%20Set%203/runoff) |
+| 📄 `runoff.c` | .c | [View](./Problem%20Set%203/runoff/runoff.c) |
+| 📂 **Problem Set 3 / sort** | Folder | [View](./Problem%20Set%203/sort) |
+| 📄 `answers.txt` | .txt | [View](./Problem%20Set%203/sort/answers.txt) |
+| 📄 `random10000.txt` | .txt | [View](./Problem%20Set%203/sort/random10000.txt) |
+| 📄 `random5000.txt` | .txt | [View](./Problem%20Set%203/sort/random5000.txt) |
+| 📄 `random50000.txt` | .txt | [View](./Problem%20Set%203/sort/random50000.txt) |
+| 📄 `reversed10000.txt` | .txt | [View](./Problem%20Set%203/sort/reversed10000.txt) |
+| 📄 `reversed5000.txt` | .txt | [View](./Problem%20Set%203/sort/reversed5000.txt) |
+| 📄 `reversed50000.txt` | .txt | [View](./Problem%20Set%203/sort/reversed50000.txt) |
+| 📄 `sorted10000.txt` | .txt | [View](./Problem%20Set%203/sort/sorted10000.txt) |
+| 📄 `sorted5000.txt` | .txt | [View](./Problem%20Set%203/sort/sorted5000.txt) |
+| 📄 `sorted50000.txt` | .txt | [View](./Problem%20Set%203/sort/sorted50000.txt) |
+| 📂 **Problem Set 3 / tideman** | Folder | [View](./Problem%20Set%203/tideman) |
+| 📄 `tideman.c` | .c | [View](./Problem%20Set%203/tideman/tideman.c) |
+| 📂 **Section / Source Code** | Folder | [View](./Section/Source%20Code) |
+| 📄 `factorial.c` | .c | [View](./Section/Source%20Code/factorial.c) |
+| 📄 `fib.c` | .c | [View](./Section/Source%20Code/fib.c) |
+| 📄 `struct.c` | .c | [View](./Section/Source%20Code/struct.c) |
+
+</details>
 
 ## 🎥 Video Resources
 
 ### Main Lecture
 
+<div align="center">
+
 [![Lecture](https://img.youtube.com/vi/6Svu_ae5ebk/0.jpg)](https://youtu.be/6Svu_ae5ebk)
+
+</div>
 
 ### 🧠 Concept Clips
 
@@ -86,4 +93,10 @@ This week delves into the core of computer science: **Algorithms**. The focus sh
 * **Tideman**: Implement a Tideman election system (ranked pairs).
 
 ---
-[← Return to Course Index](../README.md)
+
+<div align="center">
+  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
+</div>
