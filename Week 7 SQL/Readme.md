@@ -23,64 +23,70 @@ Week 7 introduces the transition from memory and pointers to data management and
 
 ## 🗂️ Complete File Index
 
-* **Lecture**
-  * 📄 [`Notes.md`](./Lecture/Notes.md)
-  * 📂 **Source Code**
-    * 📂 **src7**
-      * 📂 **favorites**
-        * 📄 [`favorites.csv`](./Lecture/Source%20Code/src7/favorites/favorites.csv)
-        * 📄 [`favorites0.py`](./Lecture/Source%20Code/src7/favorites/favorites0.py)
-        * 📄 [`favorites1.py`](./Lecture/Source%20Code/src7/favorites/favorites1.py)
-        * 📄 [`favorites2.py`](./Lecture/Source%20Code/src7/favorites/favorites2.py)
-        * 📄 [`favorites3.py`](./Lecture/Source%20Code/src7/favorites/favorites3.py)
-        * 📄 [`favorites4.py`](./Lecture/Source%20Code/src7/favorites/favorites4.py)
-        * 📄 [`favorites5.py`](./Lecture/Source%20Code/src7/favorites/favorites5.py)
-        * 📄 [`favorites6.py`](./Lecture/Source%20Code/src7/favorites/favorites6.py)
-        * 📄 [`favorites7.py`](./Lecture/Source%20Code/src7/favorites/favorites7.py)
-        * 📄 [`favorites8.py`](./Lecture/Source%20Code/src7/favorites/favorites8.py)
-        * 📄 [`favorites9.py`](./Lecture/Source%20Code/src7/favorites/favorites9.py)
-        * 📄 [`favorites10.py`](./Lecture/Source%20Code/src7/favorites/favorites10.py)
-      * 📂 **imdb**
-        * 📄 [`LICENSE`](./Lecture/Source%20Code/src7/imdb/LICENSE)
-        * 📄 [`shows.db`](./Lecture/Source%20Code/src7/imdb/shows.db)
-* **Problem Set 7**
-  * 📂 **fiftyville** (Mystery Challenge)
-    * 📄 [`answers.txt`](./Problem%20Set%207/fiftyville/answers.txt)
-    * 📄 [`fiftyville.db`](./Problem%20Set%207/fiftyville/fiftyville.db)
-    * 📄 [`log.sql`](./Problem%20Set%207/fiftyville/log.sql)
-  * 📂 **movies** (IMDb Querying)
-    * 📄 [`1.sql`](./Problem%20Set%207/movies/1.sql)
-    * 📄 [`2.sql`](./Problem%20Set%207/movies/2.sql)
-    * 📄 [`3.sql`](./Problem%20Set%207/movies/3.sql)
-    * 📄 [`4.sql`](./Problem%20Set%207/movies/4.sql)
-    * 📄 [`5.sql`](./Problem%20Set%207/movies/5.sql)
-    * 📄 [`6.sql`](./Problem%20Set%207/movies/6.sql)
-    * 📄 [`7.sql`](./Problem%20Set%207/movies/7.sql)
-    * 📄 [`8.sql`](./Problem%20Set%207/movies/8.sql)
-    * 📄 [`9.sql`](./Problem%20Set%207/movies/9.sql)
-    * 📄 [`10.sql`](./Problem%20Set%207/movies/10.sql)
-    * 📄 [`11.sql`](./Problem%20Set%207/movies/11.sql)
-    * 📄 [`12.sql`](./Problem%20Set%207/movies/12.sql)
-    * 📄 [`13.sql`](./Problem%20Set%207/movies/13.sql)
-    * 📄 [`LICENSE`](./Problem%20Set%207/movies/LICENSE)
-    * 📄 [`gitignore`](./Problem%20Set%207/movies/gitignore)
-  * 📂 **songs** (Spotify Querying)
-    * 📄 [`1.sql`](./Problem%20Set%207/songs/1.sql)
-    * 📄 [`2.sql`](./Problem%20Set%207/songs/2.sql)
-    * 📄 [`3.sql`](./Problem%20Set%207/songs/3.sql)
-    * 📄 [`4.sql`](./Problem%20Set%207/songs/4.sql)
-    * 📄 [`5.sql`](./Problem%20Set%207/songs/5.sql)
-    * 📄 [`6.sql`](./Problem%20Set%207/songs/6.sql)
-    * 📄 [`7.sql`](./Problem%20Set%207/songs/7.sql)
-    * 📄 [`8.sql`](./Problem%20Set%207/songs/8.sql)
-    * 📄 [`answers.txt`](./Problem%20Set%207/songs/answers.txt)
-    * 📄 [`songs.db`](./Problem%20Set%207/songs/songs.db)
+<details><summary><b>📂 View Source Files</b></summary>
+
+| File | Type | Link |
+| :--- | :---: | :--- |
+| 📄 `Notes.md` | .md | [View](./Lecture/Notes.md) |
+| 📂 **Lecture / Source Code / src7 / favorites** | Folder | [View](./Lecture/Source%20Code/src7/favorites) |
+| 📄 `favorites.csv` | .csv | [View](./Lecture/Source%20Code/src7/favorites/favorites.csv) |
+| 📄 `favorites0.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites0.py) |
+| 📄 `favorites1.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites1.py) |
+| 📄 `favorites2.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites2.py) |
+| 📄 `favorites3.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites3.py) |
+| 📄 `favorites4.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites4.py) |
+| 📄 `favorites5.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites5.py) |
+| 📄 `favorites6.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites6.py) |
+| 📄 `favorites7.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites7.py) |
+| 📄 `favorites8.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites8.py) |
+| 📄 `favorites9.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites9.py) |
+| 📄 `favorites10.py` | .py | [View](./Lecture/Source%20Code/src7/favorites/favorites10.py) |
+| 📂 **Lecture / Source Code / src7 / imdb** | Folder | [View](./Lecture/Source%20Code/src7/imdb) |
+| 📄 `LICENSE` | — | [View](./Lecture/Source%20Code/src7/imdb/LICENSE) |
+| 📄 `shows.db` | .db | [View](./Lecture/Source%20Code/src7/imdb/shows.db) |
+| 📂 **Problem Set 7 / fiftyville** | Folder | [View](./Problem%20Set%207/fiftyville) |
+| 📄 `answers.txt` | .txt | [View](./Problem%20Set%207/fiftyville/answers.txt) |
+| 📄 `fiftyville.db` | .db | [View](./Problem%20Set%207/fiftyville/fiftyville.db) |
+| 📄 `log.sql` | .sql | [View](./Problem%20Set%207/fiftyville/log.sql) |
+| 📂 **Problem Set 7 / movies** | Folder | [View](./Problem%20Set%207/movies) |
+| 📄 `1.sql` | .sql | [View](./Problem%20Set%207/movies/1.sql) |
+| 📄 `2.sql` | .sql | [View](./Problem%20Set%207/movies/2.sql) |
+| 📄 `3.sql` | .sql | [View](./Problem%20Set%207/movies/3.sql) |
+| 📄 `4.sql` | .sql | [View](./Problem%20Set%207/movies/4.sql) |
+| 📄 `5.sql` | .sql | [View](./Problem%20Set%207/movies/5.sql) |
+| 📄 `6.sql` | .sql | [View](./Problem%20Set%207/movies/6.sql) |
+| 📄 `7.sql` | .sql | [View](./Problem%20Set%207/movies/7.sql) |
+| 📄 `8.sql` | .sql | [View](./Problem%20Set%207/movies/8.sql) |
+| 📄 `9.sql` | .sql | [View](./Problem%20Set%207/movies/9.sql) |
+| 📄 `10.sql` | .sql | [View](./Problem%20Set%207/movies/10.sql) |
+| 📄 `11.sql` | .sql | [View](./Problem%20Set%207/movies/11.sql) |
+| 📄 `12.sql` | .sql | [View](./Problem%20Set%207/movies/12.sql) |
+| 📄 `13.sql` | .sql | [View](./Problem%20Set%207/movies/13.sql) |
+| 📄 `LICENSE` | — | [View](./Problem%20Set%207/movies/LICENSE) |
+| 📄 `gitignore` | — | [View](./Problem%20Set%207/movies/gitignore) |
+| 📂 **Problem Set 7 / songs** | Folder | [View](./Problem%20Set%207/songs) |
+| 📄 `1.sql` | .sql | [View](./Problem%20Set%207/songs/1.sql) |
+| 📄 `2.sql` | .sql | [View](./Problem%20Set%207/songs/2.sql) |
+| 📄 `3.sql` | .sql | [View](./Problem%20Set%207/songs/3.sql) |
+| 📄 `4.sql` | .sql | [View](./Problem%20Set%207/songs/4.sql) |
+| 📄 `5.sql` | .sql | [View](./Problem%20Set%207/songs/5.sql) |
+| 📄 `6.sql` | .sql | [View](./Problem%20Set%207/songs/6.sql) |
+| 📄 `7.sql` | .sql | [View](./Problem%20Set%207/songs/7.sql) |
+| 📄 `8.sql` | .sql | [View](./Problem%20Set%207/songs/8.sql) |
+| 📄 `answers.txt` | .txt | [View](./Problem%20Set%207/songs/answers.txt) |
+| 📄 `songs.db` | .db | [View](./Problem%20Set%207/songs/songs.db) |
+
+</details>
 
 ## 🎥 Video Resources
 
 ### Main Lecture
 
+<div align="center">
+
 [![Lecture 7](https://img.youtube.com/vi/oqRU2So6Z2Y/0.jpg)](https://youtu.be/oqRU2So6Z2Y)
+
+</div>
 
 ### 🧠 Concept Clips
 
@@ -101,4 +107,10 @@ A set of SQL problems based on a subset of the IMDb database. You write queries 
 A set of SQL problems exploring a database of songs and artists from Spotify. You write queries to find information like the names of songs, danceability scores, and artist details.
 
 ---
-[← Return to Course Index](../README.md)
+
+<div align="center">
+  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
+</div>

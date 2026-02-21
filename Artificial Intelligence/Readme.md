@@ -19,7 +19,7 @@ This week delves into the rapidly evolving world of Artificial Intelligence, bri
 
 ## 🗂️ Complete File Index
 
-<details open><summary><b>📂 Expand File Index</b></summary><br/>
+<details><summary><b>📂 View Source Files</b></summary>
 
 | Asset / File | Description | Access Link |
 | :--- | :--- | :--- |
