@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}System Error{% endblock %}
+
+{% block main %}
+    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 50vh;">
+        <h1 class="display-1 fw-bold text-danger mb-2">{{ top }}</h1>
+        <p class="lead text-light mb-4" style="letter-spacing: 1px;">{{ bottom }}</p>
+
+        <a href="/" class="btn btn-danger px-5 py-2 fw-bold" style="border-radius: 50px;">
+            RETURN TO GARAGE
+        </a>
+    </div>
+{% endblock %}

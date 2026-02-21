@@ -1,0 +1,361 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block main %}
+    <div class="row mb-4 text-center fade-in">
+        <div class="col-md-4">
+            <div class="p-3 rounded stats-box shadow-sm border border-secondary bg-dark h-100 d-flex flex-column justify-content-center">
+                <h5 class="text-secondary text-uppercase small mb-1">Garage Count</h5>
+                <h2 class="text-white fw-bold m-0">{{ total_cars }}</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 rounded stats-box shadow-sm border border-secondary bg-dark h-100 d-flex flex-column justify-content-center">
+                <h5 class="text-secondary text-uppercase small mb-1">Total Equity</h5>
+                <h2 class="text-danger fw-bold m-0" id="totalValueDisplay">{{ total_value }}</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 rounded stats-box d-flex flex-column align-items-center justify-content-center h-100 border border-secondary bg-dark">
+                <a href="/add" class="btn btn-danger w-100 fw-bold mb-2">+ ACQUIRE NEW</a>
+                <div class="d-flex w-100 gap-2">
+                    <button onclick="shareGarage()" class="btn btn-outline-light btn-sm w-50">🔗 Share</button>
+                    <a href="/export" class="btn btn-outline-secondary btn-sm w-50">⬇ CSV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% if cars %}
+        <div class="row mb-5 fade-in" style="animation-delay: 0.1s;">
+            <div class="col-md-8 mx-auto">
+                <div class="card shadow-lg border-secondary bg-dark">
+                    <div class="card-header border-0 bg-transparent text-white text-uppercase small fw-bold text-center pt-3">
+                        Portfolio Composition
+                    </div>
+                    <div class="card-body">
+                        <canvas id="garageChart" style="max-height: 250px;"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+    <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 fade-in" style="animation-delay: 0.2s;">
+        <div class="mb-2">
+            <a href="/" class="btn btn-outline-secondary filter-btn me-1">All</a>
+            {% for cat in categories %}
+                <a href="/?category={{ cat }}" class="btn btn-outline-secondary filter-btn me-1">{{ cat }}</a>
+            {% endfor %}
+        </div>
+        <form action="/" method="get" class="d-flex">
+            <input type="text" name="q" class="form-control me-2" placeholder="Search chassis..." autocomplete="off">
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+    </div>
+
+    {% if cars %}
+        <form action="/compare" method="get" id="compareForm">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                {% for car in cars %}
+                    <div class="col fade-in" style="animation-delay: {{ loop.index0 * 0.1 }}s;">
+                        <div class="card h-100 position-relative hover-card cyber-border tilt-card">
+
+                            <div class="position-absolute top-0 start-0 m-3" style="z-index: 20;">
+                                <input class="form-check-input bg-dark border-secondary shadow-lg" type="checkbox" name="id" value="{{ car.id }}" style="width: 1.5em; height: 1.5em; cursor: pointer;">
+                            </div>
+
+                            <div class="card-img-wrapper">
+                                <div class="scanner-beam"></div>
+                                {% if car.image %}
+                                    <img src="{{ car.image }}" class="card-img-top" alt="{{ car.model }}">
+                                {% else %}
+                                    <div class="d-flex align-items-center justify-content-center h-100 bg-secondary">
+                                        <span class="h1">🏎️</span>
+                                    </div>
+                                {% endif %}
+
+                                <div class="position-absolute top-0 end-0 m-2 badge bg-danger shadow-glow">{{ car.year }}</div>
+                                <div class="position-absolute bottom-0 start-0 m-2 badge bg-black border border-secondary text-uppercase" style="letter-spacing: 1px;">{{ car.category }}</div>
+                            </div>
+
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h5 class="card-title text-white fw-bold mb-0" style="font-family: 'Orbitron', sans-serif;">{{ car.make }} <span class="text-danger">{{ car.model }}</span></h5>
+                                    <span class="badge bg-warning text-dark fw-bold rating-badge">{{ car.rating }}</span>
+                                </div>
+
+                                <div class="stats-grid mb-3">
+                                    <div class="stat-item">
+                                        <small>POWER</small>
+                                        <span class="text-danger">{{ car.horsepower }} HP</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <small>0-60</small>
+                                        <span class="text-info">{{ car.acceleration }}s</span>
+                                    </div>
+                                </div>
+
+                                <p class="card-text small text-secondary fst-italic flex-grow-1">"{{ car.notes }}"</p>
+
+                                <div class="d-flex justify-content-between align-items-center pt-3 border-top border-secondary mt-auto">
+                                    <span class="text-success fw-bold value-text">${{ "{:,.0f}".format(car.total_invested) if car.total_invested else "0" }}</span>
+                                    <div class="d-flex gap-2">
+                                        <button type="button" class="btn btn-sm btn-outline-info cyber-btn" data-bs-toggle="modal" data-bs-target="#carModal{{ car.id }}">DETAILS</button>
+                                        <button type="submit" form="deleteForm{{ car.id }}" class="btn btn-sm btn-outline-secondary trash-btn">✕</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </form>
+
+        {% for car in cars %}
+            <form action="/delete" method="post" id="deleteForm{{ car.id }}" class="d-none">
+                <input type="hidden" name="id" value="{{ car.id }}">
+            </form>
+
+            <div class="modal fade" id="carModal{{ car.id }}" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content text-white shadow-lg">
+                        <div class="modal-header border-secondary">
+                            <div>
+                                <h5 class="modal-title fw-bold text-danger mb-0">{{ car.make }} {{ car.model }}</h5>
+                                <small class="text-secondary">VIN: {{ car.id }}8492-X</small>
+                            </div>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body p-0">
+                            <ul class="nav nav-tabs nav-fill border-secondary" role="tablist">
+                                <li class="nav-item">
+                                    <button class="nav-link active bg-transparent text-white border-0" data-bs-toggle="tab" data-bs-target="#specs{{ car.id }}" type="button">📊 Specs</button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="nav-link bg-transparent text-white border-0" data-bs-toggle="tab" data-bs-target="#service{{ car.id }}" type="button">🛠️ Service Log</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content p-4">
+                                <div class="tab-pane fade show active" id="specs{{ car.id }}">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            {% if car.image %}
+                                                <img src="{{ car.image }}" class="img-fluid rounded border border-secondary shadow" style="object-fit: cover; width: 100%; height: 250px;">
+                                            {% endif %}
+                                            <div class="mt-3 p-3 bg-black bg-opacity-25 rounded border border-secondary">
+                                                <div class="d-flex justify-content-between">
+                                                    <span class="text-secondary">Purchase Price</span>
+                                                    <span class="text-white">${{ "{:,.0f}".format(car.price) }}</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between">
+                                                    <span class="text-secondary">Maint. Cost</span>
+                                                    <span class="text-danger">+ ${{ "{:,.0f}".format(car.total_invested - car.price) }}</span>
+                                                </div>
+                                                <hr class="border-secondary my-1">
+                                                <div class="d-flex justify-content-between fw-bold">
+                                                    <span class="text-success">Total Invested</span>
+                                                    <span class="text-success">${{ "{:,.0f}".format(car.total_invested) }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6 class="text-secondary text-uppercase small">Performance Data</h6>
+                                            <ul class="list-group list-group-flush mb-3 rounded">
+                                                <li class="list-group-item bg-transparent text-white border-secondary d-flex justify-content-between"><span>Engine</span> <span class="text-warning">{{ car.engine }}</span></li>
+                                                <li class="list-group-item bg-transparent text-white border-secondary d-flex justify-content-between"><span>Horsepower</span> <span class="text-danger fw-bold">{{ car.horsepower }} hp</span></li>
+                                                <li class="list-group-item bg-transparent text-white border-secondary d-flex justify-content-between"><span>0-60 mph</span> <span class="text-info">{{ car.acceleration }}s</span></li>
+                                                <li class="list-group-item bg-transparent text-white border-secondary d-flex justify-content-between"><span>Top Speed</span> <span>{{ car.top_speed }} mph</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="service{{ car.id }}">
+                                    <form action="/add_service" method="post" class="row g-2 align-items-end mb-4 p-3 bg-black bg-opacity-25 rounded border border-secondary">
+                                        <input type="hidden" name="car_id" value="{{ car.id }}">
+                                        <div class="col-md-3">
+                                            <label class="small text-secondary">Type</label>
+                                            <select name="type" class="form-select form-select-sm border-secondary">
+                                                <option>Maintenance</option>
+                                                <option>Repair</option>
+                                                <option>Upgrade</option>
+                                                <option>Detailing</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <label class="small text-secondary">Description</label>
+                                            <input type="text" name="description" class="form-control form-control-sm border-secondary" placeholder="e.g. Oil Change" required>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label class="small text-secondary">Cost ($)</label>
+                                            <input type="number" name="cost" class="form-control form-control-sm border-secondary" placeholder="0" required>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="submit" class="btn btn-sm btn-danger w-100">Add Log</button>
+                                        </div>
+                                    </form>
+
+                                    <div style="max-height: 200px; overflow-y: auto;">
+                                        {% if car.services %}
+                                            <table class="table table-sm table-dark table-hover small">
+                                                <thead>
+                                                    <tr class="text-secondary">
+                                                        <th>Date</th>
+                                                        <th>Type</th>
+                                                        <th>Details</th>
+                                                        <th class="text-end">Cost</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {% for service in car.services %}
+                                                        <tr>
+                                                            <td class="text-muted">{{ service.date }}</td>
+                                                            <td><span class="badge bg-secondary">{{ service.service_type }}</span></td>
+                                                            <td>{{ service.description }}</td>
+                                                            <td class="text-end text-danger">-${{ service.cost }}</td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </tbody>
+                                            </table>
+                                        {% else %}
+                                            <div class="text-center text-muted py-3"><small>No service history recorded.</small></div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <div id="compareBar" class="position-fixed bottom-0 start-50 translate-middle-x mb-4 bg-dark border border-secondary p-3 rounded-pill shadow-lg d-none fade-in" style="z-index: 1000; backdrop-filter: blur(10px);">
+            <span class="text-white me-3 fw-bold">Ready to Battle?</span>
+            <button type="submit" form="compareForm" class="btn btn-danger rounded-pill px-4 fw-bold">VS FIGHT</button>
+        </div>
+
+    {% else %}
+        <div class="text-center py-5 text-muted fade-in">
+            <h4>Vault is empty.</h4>
+            <a href="/add" class="btn btn-link text-danger">Acquire your first machine</a>
+        </div>
+    {% endif %}
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+        // --- 1. Portfolio Chart Logic ---
+            const cars = {
+                {
+                    cars | tojson
+                }
+            };
+            if (cars && cars.length > 0) {
+                const categoryCounts = {};
+                cars.forEach(car => {
+                    const cat = car.category || "Uncategorized";
+                    categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+                });
+
+                const ctx = document.getElementById('garageChart');
+                if (ctx) {
+                    new Chart(ctx.getContext('2d'), {
+                        type: 'doughnut',
+                        data: {
+                            labels: Object.keys(categoryCounts),
+                            datasets: [{
+                                data: Object.values(categoryCounts),
+                                backgroundColor: ['#dc3545', '#ffc107', '#0d6efd', '#198754', '#6c757d', '#6610f2'],
+                                borderColor: '#1a1a1a',
+                                borderWidth: 2
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    position: 'right',
+                                    labels: {
+                                        color: 'white'
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+            }
+
+        // --- 2. Compare Bar Toggle ---
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const compareBar = document.getElementById('compareBar');
+
+            checkboxes.forEach(box => {
+                box.addEventListener('change', () => {
+                    const checked = document.querySelectorAll('input[type="checkbox"]:checked').length;
+                    if (checked >= 2) compareBar.classList.remove('d-none');
+                    else compareBar.classList.add('d-none');
+                });
+            });
+
+        // --- 3. 3D Tilt Effect ---
+            document.querySelectorAll('.tilt-card').forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+
+                // Limit rotation to 5 degrees for subtlety
+                    const rotateX = ((y - centerY) / centerY) * -5;
+                    const rotateY = ((x - centerX) / centerX) * 5;
+
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale(1)';
+                });
+            });
+
+        // --- 4. Number Counter Animation ---
+            const displayObj = document.getElementById("totalValueDisplay");
+            const rawString = "{{ total_value }}".replace(/[^0-9.-]+/g, "");
+            const finalValue = parseInt(rawString) || 0;
+
+            if (finalValue > 0) {
+                let start = null;
+                const duration = 1500;
+                const animate = (timestamp) => {
+                    if (!start) start = timestamp;
+                    const progress = Math.min((timestamp - start) / duration, 1);
+                    const current = Math.floor(progress * finalValue);
+                    displayObj.innerHTML = "$" + current.toLocaleString();
+                    if (progress < 1) window.requestAnimationFrame(animate);
+                    else displayObj.innerHTML = "{{ total_value }}";
+                };
+                window.requestAnimationFrame(animate);
+            }
+        });
+
+    // --- 5. Share Functionality ---
+        function shareGarage() {
+            const totalValue = "{{ total_value }}";
+            let text = `🔥 Octane Vault Collection 🔥\n\n💰 Equity: ${totalValue}\n\nTop Machines:\n`;
+
+        // Grab first 3 titles for the summary
+            const titles = document.querySelectorAll('.card-title');
+            for (let i = 0; i < Math.min(3, titles.length); i++) {
+                text += `- ${titles[i].innerText}\n`;
+            }
+
+            navigator.clipboard.writeText(text).then(() => {
+                alert("📋 Garage summary copied to clipboard!");
+            });
+        }
+    </script>
+{% endblock %}

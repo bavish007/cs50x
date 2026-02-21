@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+
+{% block title %}Acquire Machine{% endblock %}
+
+{% block main %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2 class="mb-4 text-center text-danger fw-bold text-uppercase">Acquire Machine</h2>
+
+        <form action="/add" method="post" class="card p-4 bg-dark border-secondary shadow-lg">
+
+            <div class="row">
+                <div class="col-6 mb-3">
+                    <label class="text-secondary small">Make</label>
+                    <input value="{{ pre_make }}" class="form-control" name="make" placeholder="e.g. McLaren" type="text" required>
+                </div>
+                <div class="col-6 mb-3">
+                    <label class="text-secondary small">Model</label>
+                    <input value="{{ pre_model }}" class="form-control" name="model" placeholder="e.g. P1" type="text" required>
+                </div>
+            </div>
+
+            <button type="submit" name="auto_fill" value="true" class="btn btn-outline-info w-100 fw-bold mb-4">
+                ✨ AUTO-FILL DATA & IMAGE (AI)
+            </button>
+
+            {% if auto_image %}
+                <div class="text-center mb-4 fade-in">
+                    <label class="text-success small fw-bold">Image Found:</label>
+                    <div class="mt-2">
+                        <img src="{{ auto_image }}" class="img-fluid border border-success rounded" style="max-height: 200px; object-fit: cover;">
+                    </div>
+                </div>
+            {% endif %}
+
+            <hr class="border-secondary mb-4">
+
+            <h5 class="text-white mb-3">Technical Specifications</h5>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label class="text-secondary small">Horsepower</label>
+                    <input value="{{ data['horsepower'] if data else '' }}" class="form-control text-warning" name="horsepower" type="number">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="text-secondary small">0-60 (sec)</label>
+                    <input value="{{ data['acceleration'] if data else '' }}" class="form-control text-warning" name="acceleration" step="0.1" type="number">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="text-secondary small">Top Speed (mph)</label>
+                    <input value="{{ data['top_speed'] if data else '' }}" class="form-control text-warning" name="top_speed" type="number">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="text-secondary small">Engine</label>
+                    <input value="{{ data['engine'] if data else '' }}" class="form-control text-warning" name="engine" type="text">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4 mb-3">
+                    <label class="text-secondary small">Year</label>
+                    <input value="{{ data['year'] if data else '' }}" class="form-control" name="year" type="number">
+                </div>
+                <div class="col-4 mb-3">
+                    <label class="text-secondary small">Value ($)</label>
+                    <input value="{{ data['price'] if data else '' }}" class="form-control" name="price" type="number">
+                </div>
+                <div class="col-4 mb-3">
+                    <label class="text-secondary small">Rating</label>
+                    <input value="{{ data['rating'] if data else '' }}" class="form-control" name="rating" type="number" max="10">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="text-secondary small">Image Link</label>
+                <input value="{{ auto_image }}" class="form-control" name="image" placeholder="https://..." type="url">
+                <div class="form-text text-muted small">AI auto-fills this. Leave empty to keep default.</div>
+            </div>
+
+            <div class="mb-3">
+                <label class="text-secondary small">Category</label>
+                <input value="{{ data['category'] if data else '' }}" class="form-control" name="category" type="text">
+            </div>
+
+            <div class="mb-3">
+                <label class="text-secondary small">Description</label>
+                <textarea class="form-control" name="notes" rows="2">{{ data.get('notes') or data.get('description') or '' }}</textarea>
+            </div>
+
+            <button class="btn btn-danger w-100 fw-bold py-2 mt-2" type="submit">ADD TO GARAGE</button>
+        </form>
+    </div>
+</div>
+
+<div id="loadingOverlay" class="d-none position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-75 d-flex

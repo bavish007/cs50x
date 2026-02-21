@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}Register{% endblock %}
+
+{% block main %}
+    <div class="container d-flex align-items-center justify-content-center" style="min-height: 75vh;">
+        <div class="card p-5 shadow-lg border-secondary text-center fade-in" style="width: 100%; max-width: 450px; background: rgba(20, 20, 20, 0.85); backdrop-filter: blur(15px);">
+
+            <div class="mb-4">
+                <h1 style="font-size: 3rem;">🆔</h1>
+                <h3 class="text-white fw-bold mt-2" style="font-family: 'Orbitron', sans-serif;">NEW <span class="text-danger">PROFILE</span></h3>
+                <p class="text-secondary small">Create your secure collector identity.</p>
+            </div>
+
+            <form action="/register" method="post">
+                <div class="mb-3 text-start">
+                    <label class="form-label text-secondary small text-uppercase fw-bold">Username</label>
+                    <input autocomplete="off" autofocus class="form-control form-control-lg" name="username" placeholder="Choose Driver Name" type="text" required>
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label class="form-label text-secondary small text-uppercase fw-bold">Password</label>
+                    <input class="form-control form-control-lg" name="password" placeholder="••••••••" type="password" required>
+                </div>
+
+                <div class="mb-4 text-start">
+                    <label class="form-label text-secondary small text-uppercase fw-bold">Confirm Password</label>
+                    <input class="form-control form-control-lg" name="confirmation" placeholder="••••••••" type="password" required>
+                </div>
+
+                <button class="btn btn-danger btn-lg w-100 fw-bold shadow-sm cyber-btn" type="submit">CREATE ACCOUNT</button>
+            </form>
+
+            <div class="mt-4 pt-3 border-top border-secondary">
+                <p class="text-secondary small mb-0">Already have access?</p>
+                <a href="/login" class="text-decoration-none text-info fw-bold">Log In here</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

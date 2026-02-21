@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Lost Track{% endblock %}
+
+{% block main %}
+    <div class="d-flex flex-column align-items-center justify-content-center fade-in" style="min-height: 60vh;">
+
+        <h1 class="fw-bold text-danger" style="font-size: 8rem; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 30px rgba(255, 0, 60, 0.5);">
+            404
+        </h1>
+
+        <h3 class="text-white mb-3" style="letter-spacing: 2px;">CONNECTION LOST</h3>
+
+        <p class="text-secondary mb-5" style="max-width: 400px; text-align: center;">
+            You have drifted off the map. The coordinates you are looking for do not exist in the vault.
+        </p>
+
+        <a href="/" class="btn btn-outline-light px-5 py-2 rounded-pill fw-bold hover-glow">
+            RETURN TO GARAGE
+        </a>
+
+    </div>
+{% endblock %}

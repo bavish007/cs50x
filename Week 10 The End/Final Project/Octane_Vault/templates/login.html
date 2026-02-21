@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}Log In{% endblock %}
+
+{% block main %}
+    <div class="container d-flex align-items-center justify-content-center" style="min-height: 75vh;">
+        <div class="card p-5 shadow-lg border-secondary text-center fade-in" style="width: 100%; max-width: 450px; background: rgba(20, 20, 20, 0.85); backdrop-filter: blur(15px);">
+
+            <div class="mb-4">
+                <h1 style="font-size: 3rem;">🔐</h1>
+                <h3 class="text-white fw-bold mt-2" style="font-family: 'Orbitron', sans-serif;">ACCESS <span class="text-danger">VAULT</span></h3>
+                <p class="text-secondary small">Enter your credentials to unlock the garage.</p>
+            </div>
+
+            <form action="/login" method="post">
+                <div class="mb-3 text-start">
+                    <label class="form-label text-secondary small text-uppercase fw-bold">Username</label>
+                    <input autocomplete="off" autofocus class="form-control form-control-lg" name="username" placeholder="Driver Name" type="text" required>
+                </div>
+
+                <div class="mb-4 text-start">
+                    <label class="form-label text-secondary small text-uppercase fw-bold">Password</label>
+                    <input class="form-control form-control-lg" name="password" placeholder="••••••••" type="password" required>
+                </div>
+
+                <button class="btn btn-danger btn-lg w-100 fw-bold shadow-sm cyber-btn" type="submit">ENTER GARAGE</button>
+            </form>
+
+            <div class="mt-4 pt-3 border-top border-secondary">
+                <p class="text-secondary small mb-0">New collector?</p>
+                <a href="/register" class="text-decoration-none text-info fw-bold">Register for an account</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
