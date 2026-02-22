@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="120" />
+  <img src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" width="120" />
   <br />
   <h1>🤖 Artificial Intelligence</h1>
   <p><i>Generative Models, Game Theory & Machine Learning</i></p>
@@ -40,23 +40,23 @@
 
 | Asset / File | Description | Access Link |
 | :--- | :--- | :--- |
-| 📂 **Lecture** | Lecture contents directory | [View Folder](./Lecture) |
+| 📂 **Lecture** | Lecture contents directory | [View Directory](./Lecture) |
 | 📄 `Notes.md` | Markdown notes | [`Notes.md`](./Lecture/Notes.md) |
-| 📂 **Resources** | Lecture resources directory | [View Folder](./Lecture/Resources) |
+| 📂 **Resources** | Lecture resources directory | [View Directory](./Lecture/Resources) |
 | 📄 `CS50 2025 - Family Lecture.pptx`| Family Lecture Slides | [Download PPTX](./Lecture/Resources/CS50%202025%20-%20Family%20Lecture%20-%20Artificial%20Intelligence.pptx) |
 | 📄 `ai.pdf` | Lecture Slides | [Download PDF](./Lecture/Resources/ai.pdf) |
-| 📂 **Source Code** | Source code directory | [View Folder](./Lecture/Source%20Code) |
+| 📂 **Source Code** | Source code directory | [View Directory](./Lecture/Source%20Code) |
 | 📄 `src.pdf` | Source Code PDF | [Download PDF](./Lecture/Source%20Code/src.pdf) |
-| 📂 **src** | Source files directory | [View Folder](./Lecture/Source%20Code/src) |
+| 📂 **src** | Source files directory | [View Directory](./Lecture/Source%20Code/src) |
 | 📄 `chat3.py` | Python script | [`chat3.py`](./Lecture/Source%20Code/src/chat3.py) |
-| 📂 **speller** | Speller project directory | [View Folder](./Lecture/Source%20Code/src/speller) |
+| 📂 **speller** | Speller project directory | [View Directory](./Lecture/Source%20Code/src/speller) |
 | 📄 `Makefile` | Build configuration | [`Makefile`](./Lecture/Source%20Code/src/speller/Makefile) |
 | 📄 `dictionary.c` | Dictionary source code | [`dictionary.c`](./Lecture/Source%20Code/src/speller/dictionary.c) |
 | 📄 `dictionary.h` | Dictionary header | [`dictionary.h`](./Lecture/Source%20Code/src/speller/dictionary.h) |
 | 📄 `speller.c` | Speller source code | [`speller.c`](./Lecture/Source%20Code/src/speller/speller.c) |
-| 📂 **dictionaries** | Contains 2 dict files | [View Folder](./Lecture/Source%20Code/src/speller/dictionaries) |
-| 📂 **keys** | Contains 28 answer key files | [View Folder](./Lecture/Source%20Code/src/speller/keys) |
-| 📂 **texts** | Contains 28 text source files | [View Folder](./Lecture/Source%20Code/src/speller/texts) |
+| 📂 **dictionaries** | Contains 2 dict files | [View Directory](./Lecture/Source%20Code/src/speller/dictionaries) |
+| 📂 **keys** | Contains 28 answer key files | [View Directory](./Lecture/Source%20Code/src/speller/keys) |
+| 📂 **texts** | Contains 28 text source files | [View Directory](./Lecture/Source%20Code/src/speller/texts) |
 
 </details>
 
