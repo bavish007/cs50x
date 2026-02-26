@@ -1,12 +1,17 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="120" />
-  <br />
-  <h1>💻 Week 1: C</h1>
-  <p><i>Memory, Compilation & Command Line Interface</i></p>
+  <br />
+  <kbd><a href="https://git-scm.com/" target="_blank"><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2d5emR6NHRhcGxucHY4MDRyOW0wN2NlaGsxZG1sYW9vNjVvZjJ1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/R5dspTNJBVL51hiSN7/giphy.gif" alt="C Terminal Animation" width="200" /></a></kbd>
+  <br />
+  <br />
+   
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=38&pause=1000&color=6C7D8E&center=true&vCenter=true&width=600&height=60&lines=Week+1:+C;Memory;Compilation;Command+Line+Interface;Variables;Data+Types" alt="Typing SVG" />
+  </a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Concept-Memory_%26_Compilation-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tool-Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Concept-Memory_%26_Compilation-blueviolet?style=for-the-badge" alt="Memory & Compilation" />
+  <img src="https://img.shields.io/badge/Tool-Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Terminal" />
 </div>
 
 <br />
@@ -123,10 +128,10 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <h3>Main Lecture</h3>
-  <a href="https://youtu.be/SlqjA04_dpk">
-    <img src="https://img.youtube.com/vi/SlqjA04_dpk/maxresdefault.jpg" alt="Lecture 1: C" width="600" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);" />
-  </a>
+  <kbd><a href="https://youtu.be/SlqjA04_dpk"><img src="https://img.youtube.com/vi/SlqjA04_dpk/maxresdefault.jpg" alt="Lecture 1: C" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> Click to watch the full CS50 C lecture</i></p>
 </div>
 
 <br />
@@ -140,10 +145,11 @@
 * [Command Line](https://youtu.be/BnJ013X02b8)
 * [Magic Numbers](https://youtu.be/vK_naJkrtjc)
 
----
+<br />
+<br />
+
 <div align="center">
-  <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
 </div>
