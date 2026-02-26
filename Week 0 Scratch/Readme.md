@@ -77,15 +77,25 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <h3>Main Lecture</h3>
-  <a href="https://youtu.be/UuIEbpQms8o">
-    <img src="https://img.youtube.com/vi/UuIEbpQms8o/maxresdefault.jpg" alt="Lecture 0: Scratch" width="600" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);" />
-  </a>
+  <kbd>
+    <a href="https://youtu.be/UuIEbpQms8o">
+      <img src="https://img.youtube.com/vi/UuIEbpQms8o/maxresdefault.jpg" alt="Lecture 0: Scratch" width="750" />
+    </a>
+  </kbd>
+  <br />
+  <br />
+  <p><i> Click to watch the full CS50 Scratch lecture</i></p>
 </div>
 
----
+<br />
+<br />
+
 <div align="center">
-  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
+</div>
+<div align="center">
   <a href="../README.md">
     <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
   </a>
