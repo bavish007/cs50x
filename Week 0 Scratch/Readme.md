@@ -1,15 +1,22 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/3o7aD2d7hy9ktXNDP2/giphy.gif" width="120" />
-  <br />
-  <h1>🐱 Week 0: Scratch</h1>
-  <p><i>Visual Logic, Abstraction & Algorithmic Thinking</i></p>
+  <br />
+    <img src="https://media.giphy.com/media/3o7aD2d7hy9ktXNDP2/giphy.gif" alt="Scratch Animation" width="200" />
+  <br />
+  <br />
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Nunito&weight=800&size=38&pause=1000&color=F6AB3F&center=true&vCenter=true&width=600&height=60&lines=Week+0:+Scratch;Visual+Logic;Abstraction;Algorithmic+Thinking" alt="Typing SVG" />
+  </a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-Scratch-F6AB3F?style=for-the-badge&logo=scratch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Concept-Algorithmic_Thinking-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Category-Computer_Science-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-Scratch-F6AB3F?style=for-the-badge&logo=scratch&logoColor=white" alt="Scratch" />
+  <img src="https://img.shields.io/badge/Concept-Algorithmic_Thinking-blueviolet?style=for-the-badge" alt="Algorithmic Thinking" />
+  <img src="https://img.shields.io/badge/Category-Computer_Science-success?style=for-the-badge" alt="Computer Science" />
 </div>
 
 <br />
+
+---
 
 ## 🎯 Core Objectives
 
