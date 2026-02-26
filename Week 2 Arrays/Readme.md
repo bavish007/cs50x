@@ -1,12 +1,17 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="120" />
-  <br />
-  <h1>📊 Week 2: Arrays</h1>
-  <p><i>Memory Allocation, Compiling & Data Structures</i></p>
+  <br />
+  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" alt="Arrays Animation" width="200" /></a></kbd>
+  <br />
+  <br />
+   
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&height=60&lines=Week+2:+Arrays;Memory+Allocation;Data+Structures;Strings+&+Characters;Debugging" alt="Typing SVG" />
+  </a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Concept-Data_Structures-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tool-Debug50-FCC624?style=for-the-badge&logo=bug&logoColor=black" />
+  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Concept-Data_Structures-blueviolet?style=for-the-badge" alt="Data Structures" />
+  <img src="https://img.shields.io/badge/Tool-Debug50-FCC624?style=for-the-badge&logo=bug&logoColor=black" alt="Debug50" />
 </div>
 
 <br />
@@ -115,10 +120,10 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <h3>Main Lecture</h3>
-  <a href="https://youtu.be/h5Gc1n8ZuU8">
-    <img src="https://img.youtube.com/vi/h5Gc1n8ZuU8/maxresdefault.jpg" alt="Lecture 2: Arrays" width="600" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);" />
-  </a>
+  <kbd><a href="https://youtu.be/h5Gc1n8ZuU8" target="_blank"><img src="https://img.youtube.com/vi/h5Gc1n8ZuU8/maxresdefault.jpg" alt="Lecture 2: Arrays" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> Click to watch the full CS50 Arrays lecture</i></p>
 </div>
 
 <br />
@@ -134,8 +139,8 @@
 
 ---
 <div align="center">
-  <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
 </div>
