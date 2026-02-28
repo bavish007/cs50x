@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmxpdTIwem10dW85bTRmZHh1eTJnZzJmcmwyaW5wbGR3M2ppZzcwcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jtXRDVzaCPXSynUz7h/giphy.gif" alt="Memory Animation" width="200" /></a></kbd>
+  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmxpdTIwem10dW85bTRmZHh1eTJnZzJmcmwyaW5wbGR3M2ppZzcwcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jtXRDVzaCPXSynUz7h/giphy.gif" alt="Memory Animation" width="300" /></a></kbd>
   <br />
   <br />
    
