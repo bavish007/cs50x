@@ -4,9 +4,7 @@
   <br />
   <br />
   
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Nunito&weight=800&size=38&pause=1000&color=F6AB3F&center=true&vCenter=true&width=600&height=60&lines=Week+0:+Scratch;Visual+Logic;Abstraction;Algorithmic+Thinking" alt="Typing SVG" />
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Nunito&weight=800&size=38&pause=1000&color=F6AB3F&center=true&vCenter=true&width=600&height=60&lines=Week+0:+Scratch;Visual+Logic;Abstraction;Algorithmic+Thinking" alt="Typing SVG" /></a>
   <br />
 
   <img src="https://img.shields.io/badge/Language-Scratch-F6AB3F?style=for-the-badge&logo=scratch&logoColor=white" alt="Scratch" />
@@ -16,7 +14,6 @@
 
 <br />
 
----
 
 ## 🎯 Core Objectives
 
@@ -84,26 +81,15 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <kbd>
-    <a href="https://youtu.be/UuIEbpQms8o">
-      <img src="https://img.youtube.com/vi/UuIEbpQms8o/maxresdefault.jpg" alt="Lecture 0: Scratch" width="750" />
-    </a>
-  </kbd>
-  <br />
-  <br />
-  <p><i> Click to watch the full CS50 Scratch lecture</i></p>
+  <kbd><a href="https://youtu.be/UuIEbpQms8o"><img src="https://img.youtube.com/vi/UuIEbpQms8o/maxresdefault.jpg" alt="Lecture 0: Scratch" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> Click to watch the full CS50 Scratch lecture</i></p>
 </div>
 
 <br />
 <br />
 
 <div align="center">
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
-</div>
-<div align="center">
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
