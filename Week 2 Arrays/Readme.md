@@ -1,13 +1,13 @@
 <div align="center">
-  <br />
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFxaWxmOWhmajIxMGttOHB0Zzd1bjhrejFsaXhma29iYmZkYzRteSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fYwwJG7ftffzzCm3mW/giphy.gif" alt="Arrays Animation" width="300" />
-  <br />
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&height=60&lines=Week+2:+Arrays;Memory+Allocation;Data+Structures;Strings;Characters;Debugging" alt="Typing SVG" /></a>
-  <br />
+  <br />
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFxaWxmOWhmajIxMGttOHB0Zzd1bjhrejFsaXhma29iYmZkYzRteSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fYwwJG7ftffzzCm3mW/giphy.gif" alt="Arrays Animation" width="300" />
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&height=60&lines=Week+2:+Arrays;Memory+Allocation;Data+Structures;Strings;Characters;Debugging" alt="Typing SVG" /></a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Concept-Data_Structures-blueviolet?style=for-the-badge" alt="Data Structures" />
-  <img src="https://img.shields.io/badge/Tool-Debug50-FCC624?style=for-the-badge&logo=bug&logoColor=black" alt="Debug50" />
+  <img src="https://img.shields.io/badge/LANGUAGE-C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/CONCEPT-DATA_STRUCTURES-blueviolet?style=flat" alt="Data Structures" />
+  <img src="https://img.shields.io/badge/TOOL-DEBUG50-FCC624?style=flat&logo=bug&logoColor=black" alt="Debug50" />
 </div>
 
 <br />
@@ -116,10 +116,10 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <kbd><a href="https://youtu.be/h5Gc1n8ZuU8" target="_blank"><img src="https://img.youtube.com/vi/h5Gc1n8ZuU8/maxresdefault.jpg" alt="Lecture 2: Arrays" width="750" /></a></kbd>
-  <br />
-  <br />
-  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
+  <kbd><a href="https://youtu.be/h5Gc1n8ZuU8" target="_blank"><img src="https://img.youtube.com/vi/h5Gc1n8ZuU8/maxresdefault.jpg" alt="Lecture 2: Arrays" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
@@ -134,6 +134,6 @@
 
 ---
 <div align="center">
-  <br />
-  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" /></a>
+  <br />
+  <a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_MASTER_INDEX-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
