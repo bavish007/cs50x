@@ -1,11 +1,9 @@
 <div align="center">
   <br />
-  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" alt="Arrays Animation" width="200" /></a></kbd>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFxaWxmOWhmajIxMGttOHB0Zzd1bjhrejFsaXhma29iYmZkYzRteSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fYwwJG7ftffzzCm3mW/giphy.gif" alt="Arrays Animation" width="300" />
   <br />
-  <br />
-   
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&height=60&lines=Week+2:+Arrays;Memory+Allocation;Data+Structures;Strings+&+Characters;Debugging" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&height=60&lines=Week+2:+Arrays;Memory+Allocation;Data+Structures;Strings;Characters;Debugging" alt="Typing SVG" />
   </a>
   <br />
 
