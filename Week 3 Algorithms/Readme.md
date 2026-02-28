@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2hoNXd6ZGx1bWdscG41N3JldjVvcTd3ODhlcWJvejBhMnM5MDJpeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8nTNSAyWSgfmpFZGkp/giphy.gif" alt="Algorithms Animation" width="200" /></a></kbd>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHM0MnIyaDh3YjNuZ3RiaHA5ZDF1cWJ1MHJlb25pc29lM2c4anJ3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QlexBkGa5NoRXvg4KE/giphy.gif" alt="Algorithms Animation" width="200" />
   <br />
   <br />
    
