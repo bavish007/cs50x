@@ -4,7 +4,6 @@
   <br />
   <br />
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=38&pause=1000&color=003B57;FFD43B&center=true&vCenter=true&width=600&height=60&lines=Week+7:+SQL;Relational+Databases;Queries+and+CRUD;Python+Integration;SQLite+Mastery" alt="Typing SVG" /></a>
-  <p><i>Relational Databases, Queries & Python Integration</i></p>
   <br />
 
   <img src="https://img.shields.io/badge/LANGUAGE-SQL-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQL" />
