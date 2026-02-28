@@ -1,12 +1,17 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="120" />
-  <br />
-  <h1>🧠 Week 4: Memory</h1>
-  <p><i>Pointers, Memory Allocation & Hexadecimal</i></p>
+  <br />
+  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmxpdTIwem10dW85bTRmZHh1eTJnZzJmcmwyaW5wbGR3M2ppZzcwcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jtXRDVzaCPXSynUz7h/giphy.gif" alt="Memory Animation" width="200" /></a></kbd>
+  <br />
+  <br />
+   
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=38&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&height=60&lines=Week+4:+Memory;Pointers;Dynamic+Memory;Hexadecimal;Valgrind" alt="Typing SVG" />
+  </a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Concept-Pointers_%26_Memory-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tool-Valgrind-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Concept-Pointers_%26_Memory-blueviolet?style=for-the-badge" alt="Pointers & Memory" />
+  <img src="https://img.shields.io/badge/Tool-Valgrind-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Valgrind" />
 </div>
 
 <br />
@@ -116,7 +121,7 @@
 
 ## 🛠️ Problem Sets & Labs
 
-> **Problem Set 4** challenges you to directly manipulate files and memory allocation to alter and recover digital images. 
+> **Problem Set 4** challenges you to directly manipulate files and memory allocation to alter and recover digital images. 
 
 * **Filter (Less & More):** A program to apply filters to BMP images, such as grayscale, sepia, reflection, and blur. This involves direct manipulation of pixels and understanding image file formats.
 * **Recover:** A forensic image recovery program. It reads a raw memory card image (`card.raw`) and "recovers" lost JPEG files by looking for their signatures (headers) in the byte stream.
@@ -126,10 +131,10 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <h3>Main Lecture</h3>
-  <a href="https://youtu.be/db0H0U13YsA">
-    <img src="https://img.youtube.com/vi/db0H0U13YsA/maxresdefault.jpg" alt="Lecture 4: Memory" width="600" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);" />
-  </a>
+  <kbd><a href="https://youtu.be/db0H0U13YsA" target="_blank"><img src="https://img.youtube.com/vi/db0H0U13YsA/maxresdefault.jpg" alt="Lecture 4: Memory" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> Click to watch the full CS50 Memory lecture</i></p>
 </div>
 
 <br />
@@ -145,8 +150,8 @@
 
 ---
 <div align="center">
-  <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
 </div>
