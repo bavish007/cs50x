@@ -129,19 +129,18 @@
   <kbd><a href="https://youtu.be/SlqjA04_dpk"><img src="https://img.youtube.com/vi/SlqjA04_dpk/maxresdefault.jpg" alt="Lecture 1: C" width="750" /></a></kbd>
   <br />
   <br />
-  <p><i> Click to watch the full CS50 C lecture</i></p>
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
 
 ### 🧠 Concept Clips
 
-* [Data Types](https://www.youtube.com/watch?v=Fc9htmvVZ9U)
-* [Operators](https://youtu.be/f1xZf4iJDWE)
-* [Conditional Statements](https://youtu.be/1wsaV5nVC7g)
-* [Loops](https://youtu.be/WgX8e_O7eG8)
-* [Command Line](https://youtu.be/BnJ013X02b8)
-* [Magic Numbers](https://youtu.be/vK_naJkrtjc)
+| Data Types | Operators | Conditional Statements |
+| :---: | :---: | :---: |
+| <kbd><a href="https://www.youtube.com/watch?v=Fc9htmvVZ9U"><img src="https://img.youtube.com/vi/Fc9htmvVZ9U/maxresdefault.jpg" alt="Data Types" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/f1xZf4iJDWE"><img src="https://img.youtube.com/vi/f1xZf4iJDWE/maxresdefault.jpg" alt="Operators" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/1wsaV5nVC7g"><img src="https://img.youtube.com/vi/1wsaV5nVC7g/maxresdefault.jpg" alt="Conditional Statements" width="250" /></a></kbd> |
+| **Loops** | **Command Line** | **Magic Numbers** |
+| <kbd><a href="https://youtu.be/WgX8e_O7eG8"><img src="https://img.youtube.com/vi/WgX8e_O7eG8/maxresdefault.jpg" alt="Loops" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/BnJ013X02b8"><img src="https://img.youtube.com/vi/BnJ013X02b8/maxresdefault.jpg" alt="Command Line" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/vK_naJkrtjc"><img src="https://img.youtube.com/vi/vK_naJkrtjc/maxresdefault.jpg" alt="Magic Numbers" width="250" /></a></kbd> |
 
 <br />
 <br />
