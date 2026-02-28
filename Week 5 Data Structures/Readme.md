@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2t5b3k4cDF4Z2I2cDIyczM2NWhvNHJ0ZHlrcmppbmlxeWJoczNudCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QpVUMRUJGokfqXyfa1/giphy.gif" alt="Data Structures Animation" width="200" /></a></kbd>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3V4M2Zha2FjMjV1bWQxaXR4ZGZtcTA0OXhhOXZpNHZyeGgxdWhvMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4B1BTOMTi8b3OdPrzy/giphy.gif" alt="Data Structures Animation" width="200" />
   <br />
   <br />
    
