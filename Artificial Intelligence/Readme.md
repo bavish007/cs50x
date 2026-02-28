@@ -7,9 +7,9 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=38&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Artificial+Intelligence;Generative+Models;Game+Theory;Machine+Learning" alt="Typing SVG" /></a>
   <br />
 
-  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Concept-LLMs-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
-  <img src="https://img.shields.io/badge/Algorithm-Minimax-FF8C00?style=for-the-badge" alt="Minimax" />
+  <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/CONCEPT-LLMS-8A2BE2?style=flat&logo=openai&logoColor=white" alt="LLMs" />
+  <img src="https://img.shields.io/badge/ALGORITHM-MINIMAX-FF8C00?style=flat" alt="Minimax" />
 </div>
 
 <br />
@@ -79,5 +79,5 @@
 <br />
 
 <div align="center">
-  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" /></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
