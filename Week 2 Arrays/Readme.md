@@ -2,9 +2,7 @@
   <br />
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWFxaWxmOWhmajIxMGttOHB0Zzd1bjhrejFsaXhma29iYmZkYzRteSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fYwwJG7ftffzzCm3mW/giphy.gif" alt="Arrays Animation" width="300" />
   <br />
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&height=60&lines=Week+2:+Arrays;Memory+Allocation;Data+Structures;Strings;Characters;Debugging" alt="Typing SVG" />
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&weight=700&size=38&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&height=60&lines=Week+2:+Arrays;Memory+Allocation;Data+Structures;Strings;Characters;Debugging" alt="Typing SVG" /></a>
   <br />
 
   <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
@@ -121,24 +119,21 @@
   <kbd><a href="https://youtu.be/h5Gc1n8ZuU8" target="_blank"><img src="https://img.youtube.com/vi/h5Gc1n8ZuU8/maxresdefault.jpg" alt="Lecture 2: Arrays" width="750" /></a></kbd>
   <br />
   <br />
-  <p><i> Click to watch the full CS50 Arrays lecture</i></p>
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
 
 ### 🧠 Concept Clips
 
-* [Functions](https://youtu.be/n1glFqt3g38)
-* [Variables and Scope](https://youtu.be/GiFbdVGjF9I)
-* [Debugging (Step through)](https://youtu.be/---HbbANxDQ)
-* [Debugging (Step into)](https://youtu.be/tk3cl8hyfqM)
-* [Arrays](https://youtu.be/K1yC1xshF40)
-* [Command Line Arguments](https://youtu.be/AI6Ccfno6Pk)
+| Functions | Variables and Scope | Debugging (Step through) |
+| :---: | :---: | :---: |
+| <kbd><a href="https://youtu.be/n1glFqt3g38"><img src="https://img.youtube.com/vi/n1glFqt3g38/maxresdefault.jpg" alt="Functions" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/GiFbdVGjF9I"><img src="https://img.youtube.com/vi/GiFbdVGjF9I/maxresdefault.jpg" alt="Variables and Scope" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/---HbbANxDQ"><img src="https://img.youtube.com/vi/---HbbANxDQ/maxresdefault.jpg" alt="Debugging (Step through)" width="250" /></a></kbd> |
+| **Debugging (Step into)** | **Arrays** | **Command Line Arguments** |
+| <kbd><a href="https://youtu.be/tk3cl8hyfqM"><img src="https://img.youtube.com/vi/tk3cl8hyfqM/maxresdefault.jpg" alt="Debugging (Step into)" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/K1yC1xshF40"><img src="https://img.youtube.com/vi/K1yC1xshF40/maxresdefault.jpg" alt="Arrays" width="250" /></a></kbd> | <kbd><a href="https://youtu.be/AI6Ccfno6Pk"><img src="https://img.youtube.com/vi/AI6Ccfno6Pk/maxresdefault.jpg" alt="Command Line Arguments" width="250" /></a></kbd> |
 
 ---
 <div align="center">
   <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
