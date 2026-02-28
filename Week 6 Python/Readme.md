@@ -1,12 +1,14 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="100" />
   <br />
-  <h1>🐍 Week 6: Python</h1>
-  <p><i>High-Level Scripting, Data Structures & Modules</i></p>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2VwYmZvM3dydjVmeGtnY3dmcW83OXN4bG1vMTRmZHZ0ODJpOXY0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMt9638dO8dftAjtco/giphy.gif" alt="Python Animation" width="200" />
+  <br />
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=38&pause=1000&color=3776AB;FFD43B;3776AB;FFD43B;3776AB&center=true&vCenter=true&width=600&height=60&lines=Week+6:+Python;High-Level+Scripting;Data+Structures;Object-Oriented;Modules+and+Libraries" alt="Typing SVG" /></a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Concept-High--Level_Scripting-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Paradigm-Object_Oriented-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/CONCEPT-HIGH--LEVEL_SCRIPTING-blueviolet?style=flat" alt="High-Level Scripting" />
+  <img src="https://img.shields.io/badge/PARADIGM-OBJECT_ORIENTED-success?style=flat" alt="Object Oriented" />
 </div>
 
 <br />
@@ -164,22 +166,26 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <h3>Main Lecture</h3>
-  <a href="https://youtu.be/Rl0ludWTLxs">
-    <img src="https://img.youtube.com/vi/Rl0ludWTLxs/maxresdefault.jpg" alt="Lecture 6: Python" width="600" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);" />
-  </a>
+  <kbd><a href="https://youtu.be/Rl0ludWTLxs" target="_blank"><img src="https://img.youtube.com/vi/Rl0ludWTLxs/maxresdefault.jpg" alt="Lecture 6: Python" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
 
 ### 🧠 Concept Clips
 
-* [Python](https://youtu.be/mgBpcQRDtl0)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Python</b><br><kbd><a href="https://youtu.be/mgBpcQRDtl0"><img src="https://img.youtube.com/vi/mgBpcQRDtl0/maxresdefault.jpg" alt="Python" width="190" /></a></kbd></td>
+    </tr>
+  </table>
+</div>
 
 ---
 <div align="center">
   <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_MASTER_INDEX-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
