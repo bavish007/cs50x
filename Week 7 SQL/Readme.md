@@ -1,12 +1,15 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width="100" />
   <br />
-  <h1>🗄️ Week 7: SQL</h1>
+  <kbd><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHQ0cWF1MXV6ODV6azl1d2dwbzQ5NTBpeXpoeWlxZjhkbnhvMWs1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vISmwpBJUNYzukTnVx/giphy.gif" alt="SQL Animation" width="200" /></kbd>
+  <br />
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=38&pause=1000&color=003B57;FFD43B&center=true&vCenter=true&width=600&height=60&lines=Week+7:+SQL;Relational+Databases;Queries+and+CRUD;Python+Integration;SQLite+Mastery" alt="Typing SVG" /></a>
   <p><i>Relational Databases, Queries & Python Integration</i></p>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Concept-Relational_Databases-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tool-SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/LANGUAGE-SQL-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/CONCEPT-RELATIONAL_DATABASES-blueviolet?style=flat" alt="Relational Databases" />
+  <img src="https://img.shields.io/badge/TOOL-SQLITE-07405E?style=flat&logo=sqlite&logoColor=white" alt="SQLite" />
 </div>
 
 <br />
@@ -51,7 +54,7 @@
 | 📄 `favorites1.py` | Python | [`favorites1.py`](./Lecture/Source%20Code/src7/favorites/favorites1.py) |
 | 📄 `favorites2.py` | Python | [`favorites2.py`](./Lecture/Source%20Code/src7/favorites/favorites2.py) |
 | 📄 `favorites3.py` | Python | [`favorites3.py`](./Lecture/Source%20Code/src7/favorites/favorites3.py) |
-| 📄 `favorites4.py` | Python | [`favorites4.py`](./Lecture/Source%20Code/src7/favorites/favorites4.py) |
+| 📄 `favorites4.py" | Python | [`favorites4.py`](./Lecture/Source%20Code/src7/favorites/favorites4.py) |
 | 📄 `favorites5.py` | Python | [`favorites5.py`](./Lecture/Source%20Code/src7/favorites/favorites5.py) |
 | 📄 `favorites6.py` | Python | [`favorites6.py`](./Lecture/Source%20Code/src7/favorites/favorites6.py) |
 | 📄 `favorites7.py` | Python | [`favorites7.py`](./Lecture/Source%20Code/src7/favorites/favorites7.py) |
@@ -113,22 +116,26 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <h3>Main Lecture</h3>
-  <a href="https://youtu.be/oqRU2So6Z2Y">
-    <img src="https://img.youtube.com/vi/oqRU2So6Z2Y/maxresdefault.jpg" alt="Lecture 7: SQL" width="600" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);" />
-  </a>
+  <kbd><a href="https://youtu.be/oqRU2So6Z2Y" target="_blank"><img src="https://img.youtube.com/vi/oqRU2So6Z2Y/maxresdefault.jpg" alt="Lecture 7: SQL" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
 
 ### 🧠 Concept Clips
 
-* [SQL](https://youtu.be/AywtnUjQ6X4)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>SQL</b><br><kbd><a href="https://youtu.be/AywtnUjQ6X4"><img src="https://img.youtube.com/vi/AywtnUjQ6X4/maxresdefault.jpg" alt="SQL" width="190" /></a></kbd></td>
+    </tr>
+  </table>
+</div>
 
 ---
 <div align="center">
   <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_MASTER_INDEX-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
