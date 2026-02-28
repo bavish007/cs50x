@@ -7,9 +7,9 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Nunito&weight=800&size=38&pause=1000&color=F6AB3F&center=true&vCenter=true&width=600&height=60&lines=Week+0:+Scratch;Visual+Logic;Abstraction;Algorithmic+Thinking" alt="Typing SVG" /></a>
   <br />
 
-  <img src="https://img.shields.io/badge/Language-Scratch-F6AB3F?style=for-the-badge&logo=scratch&logoColor=white" alt="Scratch" />
-  <img src="https://img.shields.io/badge/Concept-Algorithmic_Thinking-blueviolet?style=for-the-badge" alt="Algorithmic Thinking" />
-  <img src="https://img.shields.io/badge/Category-Computer_Science-success?style=for-the-badge" alt="Computer Science" />
+  <img src="https://img.shields.io/badge/LANGUAGE-SCRATCH-F6AB3F?style=flat&logo=scratch&logoColor=white" alt="Scratch" />
+  <img src="https://img.shields.io/badge/CONCEPT-ALGORITHMIC_THINKING-blueviolet?style=flat" alt="Algorithmic Thinking" />
+  <img src="https://img.shields.io/badge/CATEGORY-COMPUTER_SCIENCE-success?style=flat" alt="Computer Science" />
 </div>
 
 <br />
@@ -91,5 +91,5 @@
 <br />
 
 <div align="center">
-  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" /></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
