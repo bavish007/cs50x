@@ -7,9 +7,9 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=38&pause=1000&color=6C7D8E&center=true&vCenter=true&width=600&height=60&lines=Week+1:+C;Memory;Compilation;Command+Line+Interface;Variables;Data+Types" alt="Typing SVG" /></a>
   <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Concept-Memory_%26_Compilation-blueviolet?style=for-the-badge" alt="Memory & Compilation" />
-  <img src="https://img.shields.io/badge/Tool-Linux_Terminal-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Terminal" />
+  <img src="https://img.shields.io/badge/LANGUAGE-C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/CONCEPT-MEMORY_%26_COMPILATION-blueviolet?style=flat" alt="Memory & Compilation" />
+  <img src="https://img.shields.io/badge/TOOL-LINUX_TERMINAL-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux Terminal" />
 </div>
 
 <br />
@@ -146,5 +146,5 @@
 <br />
 
 <div align="center">
-  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" /></a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_MASTER_INDEX-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
