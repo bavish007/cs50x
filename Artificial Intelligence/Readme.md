@@ -1,28 +1,25 @@
 <div align="center">
-  <br />
-  <kbd>
-    <img src="https://media.giphy.com/media/CVtNe84hhYF9u/giphy.gif" alt="AI Neural Network" width="200" />
-  </kbd>
-  <br />
-  <br />
-  
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=38&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Artificial+Intelligence;Generative+Models;Game+Theory;Machine+Learning" alt="Typing SVG" />
-  </a>
-  <br />
+  <br />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWk1bWpydmhrM2hoMng2b3U2aXAwZ2RwY3RodTRjbHJudzJhZzk5eSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/SlKBbQNNZNfcPRWYW7/giphy.gif" alt="CS50 AI Animation" width="200" />
+  <br />
+  <br />
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=38&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Artificial+Intelligence;Generative+Models;Game+Theory;Machine+Learning" alt="Typing SVG" />
+  </a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Concept-LLMs-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
-  <img src="https://img.shields.io/badge/Algorithm-Minimax-FF8C00?style=for-the-badge" alt="Minimax" />
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Concept-LLMs-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
+  <img src="https://img.shields.io/badge/Algorithm-Minimax-FF8C00?style=for-the-badge" alt="Minimax" />
 </div>
 
 <br />
 
----
 
 ## 🎯 Core Objectives
 
-This week delves into the rapidly evolving world of Artificial Intelligence, bridging the gap between classical algorithms and modern generative models. We explore how machines "think," learn, and create.
+> This week delves into the rapidly evolving world of Artificial Intelligence, bridging the gap between classical algorithms and modern generative models. We explore how machines "think," learn, and create.
 
 * **Generative AI & LLMs:** Understanding the mechanisms behind tools like ChatGPT and image generators, including prompt engineering and the underlying transformer architecture.
 * **Game Theory & Algorithms:** Analyzing how AI plays games using Minimax and Decision Trees to calculate optimal moves in environments like Tic-Tac-Toe.
@@ -74,21 +71,17 @@ This week delves into the rapidly evolving world of Artificial Intelligence, bri
 ## 🎥 Video Resources
 
 <div align="center">
-  <a href="https://youtu.be/-9bo8HlSxwQ">
-    <kbd>
-      <img src="https://img.youtube.com/vi/-9bo8HlSxwQ/maxresdefault.jpg" alt="Artificial Intelligence Lecture" width="750" />
-    </kbd>
-  </a>
-  <br />
-  <br />
-  <p><i> Click to watch the full CS50 Artificial Intelligence lecture</i></p>
+  <kbd><a href="https://youtu.be/-9bo8HlSxwQ" target="_blank"><img src="https://img.youtube.com/vi/-9bo8HlSxwQ/maxresdefault.jpg" alt="Artificial Intelligence Lecture" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> Click to watch the full CS50 Artificial Intelligence lecture</i></p>
 </div>
 
 <br />
 <br />
 
 <div align="center">
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
 </div>
