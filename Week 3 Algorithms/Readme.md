@@ -1,16 +1,15 @@
 <div align="center">
-  <br />
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHM0MnIyaDh3YjNuZ3RiaHA5ZDF1cWJ1MHJlb25pc29lM2c4anJ3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QlexBkGa5NoRXvg4KE/giphy.gif" alt="Algorithms Animation" width="200" />
-  <br />
-  <br />
-   
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Ubuntu+Mono&weight=700&size=38&pause=1000&color=FF3333&center=true&vCenter=true&width=600&height=60&lines=Week+3:+Algorithms;Searching;Sorting;Recursion;Time+Space+Complexities;Notations" alt="Typing SVG" />
-  </a>
-  <br />
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Concept-Algorithms-blueviolet?style=for-the-badge" alt="Algorithms" />
-  <img src="https://img.shields.io/badge/Metric-Big_O_Notation-FF3333?style=for-the-badge" alt="Big O Notation" />
+  <br />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHM0MnIyaDh3YjNuZ3RiaHA5ZDF1cWJ1MHJlb25pc29lM2c4anJ3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/QlexBkGa5NoRXvg4KE/giphy.gif" alt="Algorithms Animation" width="200" />
+  <br />
+  <br />
+   
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Ubuntu+Mono&weight=700&size=38&pause=1000&color=FF3333&center=true&vCenter=true&width=600&height=60&lines=Week+3:+Algorithms;Searching;Sorting;Recursion;Time+Space+Complexities;Notations" alt="Typing SVG" /></a>
+  <br />
+
+  <img src="https://img.shields.io/badge/LANGUAGE-C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/CONCEPT-ALGORITHMS-blueviolet?style=flat" alt="Algorithms" />
+  <img src="https://img.shields.io/badge/METRIC-BIG_O_NOTATION-FF3333?style=flat" alt="Big O Notation" />
 </div>
 
 <br />
@@ -100,28 +99,38 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <kbd><a href="https://youtu.be/6Svu_ae5ebk" target="_blank"><img src="https://img.youtube.com/vi/6Svu_ae5ebk/maxresdefault.jpg" alt="Lecture 3: Algorithms" width="750" /></a></kbd>
-  <br />
-  <br />
-  <p><i> Click to watch the full CS50 Algorithms lecture</i></p>
+  <kbd><a href="https://youtu.be/6Svu_ae5ebk" target="_blank"><img src="https://img.youtube.com/vi/6Svu_ae5ebk/maxresdefault.jpg" alt="Lecture 3: Algorithms" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
 
 ### 🧠 Concept Clips
 
-* [Linear Search](https://youtu.be/TwsgCHYmbbA)
-* [Binary Search](https://youtu.be/T98PIp4omUA)
-* [Bubble Sort](https://youtu.be/RT-hUXUWQ2I)
-* [Selection Sort](https://youtu.be/3hH8kTHFw2A)
-* [Call Stacks](https://youtu.be/aCPkszeKRa4)
-* [Recursion](https://youtu.be/mz6tAJMVmfM)
-* [Merge Sort](https://youtu.be/Ns7tGNbtvV4)
-
----
 <div align="center">
-  <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <table>
+    <tr>
+      <td align="center"><b>Linear Search</b><br><kbd><a href="https://youtu.be/TwsgCHYmbbA"><img src="https://img.youtube.com/vi/TwsgCHYmbbA/maxresdefault.jpg" alt="Linear Search" width="190" /></a></kbd></td>
+      <td align="center"><b>Binary Search</b><br><kbd><a href="https://youtu.be/T98PIp4omUA"><img src="https://img.youtube.com/vi/T98PIp4omUA/maxresdefault.jpg" alt="Binary Search" width="190" /></a></kbd></td>
+      <td align="center"><b>Bubble Sort</b><br><kbd><a href="https://youtu.be/RT-hUXUWQ2I"><img src="https://img.youtube.com/vi/RT-hUXUWQ2I/maxresdefault.jpg" alt="Bubble Sort" width="190" /></a></kbd></td>
+      <td align="center"><b>Selection Sort</b><br><kbd><a href="https://youtu.be/3hH8kTHFw2A"><img src="https://img.youtube.com/vi/3hH8kTHFw2A/maxresdefault.jpg" alt="Selection Sort" width="190" /></a></kbd></td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td align="center"><b>Call Stacks</b><br><kbd><a href="https://youtu.be/aCPkszeKRa4"><img src="https://img.youtube.com/vi/aCPkszeKRa4/maxresdefault.jpg" alt="Call Stacks" width="190" /></a></kbd></td>
+      <td align="center"><b>Recursion</b><br><kbd><a href="https://youtu.be/mz6tAJMVmfM"><img src="https://img.youtube.com/vi/mz6tAJMVmfM/maxresdefault.jpg" alt="Recursion" width="190" /></a></kbd></td>
+      <td align="center"><b>Merge Sort</b><br><kbd><a href="https://youtu.be/Ns7tGNbtvV4"><img src="https://img.youtube.com/vi/Ns7tGNbtvV4/maxresdefault.jpg" alt="Merge Sort" width="190" /></a></kbd></td>
+    </tr>
+  </table>
+</div>
+
+<br />
+<br />
+
+<div align="center">
+  <br />
+  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
