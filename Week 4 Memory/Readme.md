@@ -1,17 +1,14 @@
 <div align="center">
-  <br />
-  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmxpdTIwem10dW85bTRmZHh1eTJnZzJmcmwyaW5wbGR3M2ppZzcwcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jtXRDVzaCPXSynUz7h/giphy.gif" alt="Memory Animation" width="300" /></a></kbd>
-  <br />
-  <br />
-   
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=38&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&height=60&lines=Week+4:+Memory;Pointers;Dynamic+Memory;Hexadecimal;Valgrind" alt="Typing SVG" />
-  </a>
-  <br />
+  <br />
+  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmxpdTIwem10dW85bTRmZHh1eTJnZzJmcmwyaW5wbGR3M2ppZzcwcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jtXRDVzaCPXSynUz7h/giphy.gif" alt="Memory Animation" width="300" /></a></kbd>
+  <br />
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=38&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&height=60&lines=Week+4:+Memory;Pointers;Dynamic+Memory;Hexadecimal;Valgrind" alt="Typing SVG" /></a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Concept-Pointers_%26_Memory-blueviolet?style=for-the-badge" alt="Pointers & Memory" />
-  <img src="https://img.shields.io/badge/Tool-Valgrind-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Valgrind" />
+  <img src="https://img.shields.io/badge/LANGUAGE-C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/CONCEPT-POINTERS_%26_MEMORY-blueviolet?style=flat" alt="Pointers & Memory" />
+  <img src="https://img.shields.io/badge/TOOL-VALGRIND-FCC624?style=flat&logo=linux&logoColor=black" alt="Valgrind" />
 </div>
 
 <br />
@@ -121,7 +118,7 @@
 
 ## 🛠️ Problem Sets & Labs
 
-> **Problem Set 4** challenges you to directly manipulate files and memory allocation to alter and recover digital images. 
+> **Problem Set 4** challenges you to directly manipulate files and memory allocation to alter and recover digital images. 
 
 * **Filter (Less & More):** A program to apply filters to BMP images, such as grayscale, sepia, reflection, and blur. This involves direct manipulation of pixels and understanding image file formats.
 * **Recover:** A forensic image recovery program. It reads a raw memory card image (`card.raw`) and "recovers" lost JPEG files by looking for their signatures (headers) in the byte stream.
@@ -131,27 +128,33 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <kbd><a href="https://youtu.be/db0H0U13YsA" target="_blank"><img src="https://img.youtube.com/vi/db0H0U13YsA/maxresdefault.jpg" alt="Lecture 4: Memory" width="750" /></a></kbd>
-  <br />
-  <br />
-  <p><i> Click to watch the full CS50 Memory lecture</i></p>
+  <kbd><a href="https://youtu.be/db0H0U13YsA" target="_blank"><img src="https://img.youtube.com/vi/db0H0U13YsA/maxresdefault.jpg" alt="Lecture 4: Memory" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
 
 ### 🧠 Concept Clips
 
-* [Hexadecimal](https://youtu.be/u_atXp-NF6w)
-* [Pointers](https://youtu.be/XISnO2YhnsY)
-* [Defining Custom Types](https://youtu.be/96M4q0OnMfY)
-* [Dynamic Memory Allocation](https://youtu.be/xa4ugmMDhiE)
-* [Call Stacks](https://youtu.be/aCPkszeKRa4)
-* [File Pointers](https://youtu.be/bOF-SpEAYgk)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Hexadecimal</b><br><kbd><a href="https://youtu.be/u_atXp-NF6w"><img src="https://img.youtube.com/vi/u_atXp-NF6w/maxresdefault.jpg" alt="Hexadecimal" width="200" /></a></kbd></td>
+      <td align="center"><b>Pointers</b><br><kbd><a href="https://youtu.be/XISnO2YhnsY"><img src="https://img.youtube.com/vi/XISnO2YhnsY/maxresdefault.jpg" alt="Pointers" width="200" /></a></kbd></td>
+      <td align="center"><b>Custom Types</b><br><kbd><a href="https://youtu.be/96M4q0OnMfY"><img src="https://img.youtube.com/vi/96M4q0OnMfY/maxresdefault.jpg" alt="Custom Types" width="200" /></a></kbd></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Dynamic Memory</b><br><kbd><a href="https://youtu.be/xa4ugmMDhiE"><img src="https://img.youtube.com/vi/xa4ugmMDhiE/maxresdefault.jpg" alt="Dynamic Memory" width="200" /></a></kbd></td>
+      <td align="center"><b>Call Stacks</b><br><kbd><a href="https://youtu.be/aCPkszeKRa4"><img src="https://img.youtube.com/vi/aCPkszeKRa4/maxresdefault.jpg" alt="Call Stacks" width="200" /></a></kbd></td>
+      <td align="center"><b>File Pointers</b><br><kbd><a href="https://youtu.be/bOF-SpEAYgk"><img src="https://img.youtube.com/vi/bOF-SpEAYgk/maxresdefault.jpg" alt="File Pointers" width="200" /></a></kbd></td>
+    </tr>
+  </table>
+</div>
 
 ---
 <div align="center">
-  <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <br />
+  <a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_MASTER_INDEX-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
