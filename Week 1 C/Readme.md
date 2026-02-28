@@ -4,9 +4,7 @@
   <br />
   <br />
    
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=38&pause=1000&color=6C7D8E&center=true&vCenter=true&width=600&height=60&lines=Week+1:+C;Memory;Compilation;Command+Line+Interface;Variables;Data+Types" alt="Typing SVG" />
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=38&pause=1000&color=6C7D8E&center=true&vCenter=true&width=600&height=60&lines=Week+1:+C;Memory;Compilation;Command+Line+Interface;Variables;Data+Types" alt="Typing SVG" /></a>
   <br />
 
   <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
@@ -149,7 +147,5 @@
 <br />
 
 <div align="center">
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <a href="../README.md"><img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
