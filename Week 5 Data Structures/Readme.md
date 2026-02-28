@@ -1,12 +1,17 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg" width="100" />
-  <br />
-  <h1>🌲 Week 5: Data Structures</h1>
-  <p><i>Linked Lists, Hash Tables, Tries & Memory Organization</i></p>
+  <br />
+  <kbd><a href="https://cs50.harvard.edu/" target="_blank"><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2t5b3k4cDF4Z2I2cDIyczM2NWhvNHJ0ZHlrcmppbmlxeWJoczNudCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QpVUMRUJGokfqXyfa1/giphy.gif" alt="Data Structures Animation" width="200" /></a></kbd>
+  <br />
+  <br />
+   
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&weight=700&size=38&pause=1000&color=4CAF50&center=true&vCenter=true&width=600&height=60&lines=Week+5:+Data+Structures;Linked+Lists;Hash+Tables;Tries;Abstract+Data+Types;Memory+Organization" alt="Typing SVG" />
+  </a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Concept-Data_Structures-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Algorithm-Hash_Tables-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Concept-Data_Structures-blueviolet?style=for-the-badge" alt="Data Structures" />
+  <img src="https://img.shields.io/badge/Algorithm-Hash_Tables-success?style=for-the-badge" alt="Hash Tables" />
 </div>
 
 <br />
@@ -126,10 +131,10 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <h3>Main Lecture</h3>
-  <a href="https://youtu.be/PmAI76OGE_E">
-    <img src="https://img.youtube.com/vi/PmAI76OGE_E/maxresdefault.jpg" alt="Lecture 5: Data Structures" width="600" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.5);" />
-  </a>
+  <kbd><a href="https://youtu.be/PmAI76OGE_E" target="_blank"><img src="https://img.youtube.com/vi/PmAI76OGE_E/maxresdefault.jpg" alt="Lecture 5: Data Structures" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> Click to watch the full CS50 Data Structures lecture</i></p>
 </div>
 
 <br />
@@ -147,8 +152,8 @@
 
 ---
 <div align="center">
-  <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <br />
+  <a href="../README.md">
+    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
+  </a>
 </div>
