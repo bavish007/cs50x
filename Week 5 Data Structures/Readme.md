@@ -1,17 +1,14 @@
 <div align="center">
-  <br />
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3V4M2Zha2FjMjV1bWQxaXR4ZGZtcTA0OXhhOXZpNHZyeGgxdWhvMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4B1BTOMTi8b3OdPrzy/giphy.gif" alt="Data Structures Animation" width="200" />
-  <br />
-  <br />
-   
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&weight=700&size=38&pause=1000&color=4CAF50&center=true&vCenter=true&width=600&height=60&lines=Week+5:+Data+Structures;Linked+Lists;Hash+Tables;Tries;Abstract+Data+Types;Memory+Organization" alt="Typing SVG" />
-  </a>
-  <br />
+  <br />
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3V4M2Zha2FjMjV1bWQxaXR4ZGZtcTA0OXhhOXZpNHZyeGgxdWhvMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4B1BTOMTi8b3OdPrzy/giphy.gif" alt="Data Structures Animation" width="200" />
+  <br />
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&weight=700&size=38&pause=1000&color=4CAF50&center=true&vCenter=true&width=600&height=60&lines=Week+5:+Data+Structures;Linked+Lists;Hash+Tables;Tries;Abstract+Data+Types;Memory+Organization" alt="Typing SVG" /></a>
+  <br />
 
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Concept-Data_Structures-blueviolet?style=for-the-badge" alt="Data Structures" />
-  <img src="https://img.shields.io/badge/Algorithm-Hash_Tables-success?style=for-the-badge" alt="Hash Tables" />
+  <img src="https://img.shields.io/badge/LANGUAGE-C-00599C?style=flat&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/CONCEPT-DATA_STRUCTURES-blueviolet?style=flat" alt="Data Structures" />
+  <img src="https://img.shields.io/badge/ALGORITHM-HASH_TABLES-success?style=flat" alt="Hash Tables" />
 </div>
 
 <br />
@@ -131,29 +128,35 @@
 ## 🎥 Video Resources
 
 <div align="center">
-  <kbd><a href="https://youtu.be/PmAI76OGE_E" target="_blank"><img src="https://img.youtube.com/vi/PmAI76OGE_E/maxresdefault.jpg" alt="Lecture 5: Data Structures" width="750" /></a></kbd>
-  <br />
-  <br />
-  <p><i> Click to watch the full CS50 Data Structures lecture</i></p>
+  <kbd><a href="https://youtu.be/PmAI76OGE_E" target="_blank"><img src="https://img.youtube.com/vi/PmAI76OGE_E/maxresdefault.jpg" alt="Lecture 5: Data Structures" width="750" /></a></kbd>
+  <br />
+  <br />
+  <p><i> 📌 <b>Note:</b> The video above is the comprehensive Main Lecture. Please refer to the targeted Concept Clips below for specific topic breakdowns.</i></p>
 </div>
 
 <br />
 
 ### 🧠 Concept Clips
 
-* [Structures](https://youtu.be/E4lb2gkyXr8)
-* [Singly Linked Lists](https://youtu.be/zQI3FyWm144)
-* [Doubly Linked Lists](https://youtu.be/FHMPswJDCvU)
-* [Stacks](https://youtu.be/hVsNqhEthOk)
-* [Queues](https://youtu.be/3TmUv1uS92s)
-* [Hash Tables](https://youtu.be/nvzVHwrrub0)
-* [Tries](https://youtu.be/MC-iQHFdEDI)
-* [Data Structures](https://youtu.be/3uGchQbk7g8)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Structures</b><br><kbd><a href="https://youtu.be/E4lb2gkyXr8"><img src="https://img.youtube.com/vi/E4lb2gkyXr8/maxresdefault.jpg" alt="Structures" width="190" /></a></kbd></td>
+      <td align="center"><b>Singly Linked Lists</b><br><kbd><a href="https://youtu.be/zQI3FyWm144"><img src="https://img.youtube.com/vi/zQI3FyWm144/maxresdefault.jpg" alt="Singly Linked Lists" width="190" /></a></kbd></td>
+      <td align="center"><b>Doubly Linked Lists</b><br><kbd><a href="https://youtu.be/FHMPswJDCvU"><img src="https://img.youtube.com/vi/FHMPswJDCvU/maxresdefault.jpg" alt="Doubly Linked Lists" width="190" /></a></kbd></td>
+      <td align="center"><b>Stacks</b><br><kbd><a href="https://youtu.be/hVsNqhEthOk"><img src="https://img.youtube.com/vi/hVsNqhEthOk/maxresdefault.jpg" alt="Stacks" width="190" /></a></kbd></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Queues</b><br><kbd><a href="https://youtu.be/3TmUv1uS92s"><img src="https://img.youtube.com/vi/3TmUv1uS92s/maxresdefault.jpg" alt="Queues" width="190" /></a></kbd></td>
+      <td align="center"><b>Hash Tables</b><br><kbd><a href="https://youtu.be/nvzVHwrrub0"><img src="https://img.youtube.com/vi/nvzVHwrrub0/maxresdefault.jpg" alt="Hash Tables" width="190" /></a></kbd></td>
+      <td align="center"><b>Tries</b><br><kbd><a href="https://youtu.be/MC-iQHFdEDI"><img src="https://img.youtube.com/vi/MC-iQHFdEDI/maxresdefault.jpg" alt="Tries" width="190" /></a></kbd></td>
+      <td align="center"><b>Data Structures</b><br><kbd><a href="https://youtu.be/3uGchQbk7g8"><img src="https://img.youtube.com/vi/3uGchQbk7g8/maxresdefault.jpg" alt="Data Structures" width="190" /></a></kbd></td>
+    </tr>
+  </table>
+</div>
 
 ---
 <div align="center">
-  <br />
-  <a href="../README.md">
-    <img src="https://img.shields.io/badge/Return_to_Master_Index-181717?style=for-the-badge&logo=github&logoColor=white" alt="Back to Master Index" />
-  </a>
+  <br />
+  <a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_MASTER_INDEX-181717?style=flat&logo=github&logoColor=white" alt="Back to Master Index" /></a>
 </div>
