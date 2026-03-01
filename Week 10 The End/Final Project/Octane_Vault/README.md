@@ -97,7 +97,7 @@ octane-vault/
 
 <br />
 
-🧠 **The Backend Engine (app.py)**
+ **The Backend Engine (app.py)**
 Built on Flask, the backend serves as the traffic warden for data flow. It features:
 * **Dynamic Routing:** Multi-vehicle comparison engines and aggregate portfolio analytics.
 * **Context Processors:** The `inject_user_status()` processor calculates real-time user Ranks (Rookie, VIP, Magnate) based on garage valuation.
@@ -109,7 +109,7 @@ Built on Flask, the backend serves as the traffic warden for data flow. It featu
 🗄️ **Relational Data Model (garage.db)**
 * **One-to-Many Maintenance:** A dedicated services table links to individual cars, allowing the system to mathematically calculate "Total Investment" by summing cumulative service costs.
 
-🎨 **Design System (static/styles.css)**
+ **Design System (static/styles.css)**
 * **Glassmorphism:** Employs `backdrop-filter: blur(15px)` for a premium "frosted glass" interface.
 * **GPU-Acceleration:** Native CSS `@keyframes` handle the "Phantom Drift" and "Laser Scan" effects at a silky 60fps.
 
