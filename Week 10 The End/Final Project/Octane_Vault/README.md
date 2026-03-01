@@ -1,72 +1,151 @@
-# OCTANE VAULT - Asset Management System
-#### Video Demo:  https://youtu.be/3zq_tMyu3cU
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXlubW95OWNvcnh0OGQ3NHNibXQzMnZsaTF5dTBnOXRkOXA1aXpyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AEDD6xjlOxNMgFsUmA/giphy.gif" width="550" alt="Octane Vault Cyberpunk" />
+  <br />
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=500&size=45&pause=1000&color=8B0000&center=true&vCenter=true&width=800&height=80&lines=OCTANE+VAULT;THE+ULTIMATE+GARAGE+OS;ASSET+MANAGEMENT;REAL-TIME+EQUITY" alt="Typing SVG" /></a>
+  <p style="color: #8B0000; text-shadow: 1px 1px 0px #000;"><i>Centralizing automotive passion through intelligent data and immersive design</i></p>
+  <br />
 
-#### Description:
-**Octane Vault** is a high-performance asset management platform and "Garage Operating System" designed specifically for automotive collectors and enthusiasts.
+  <img src="https://img.shields.io/badge/STATUS-CS50_FINAL_PROJECT-111111?style=flat&labelColor=8B0000" alt="Status" />
+  <img src="https://img.shields.io/badge/FRAMEWORK-FLASK-111111?style=flat&logo=flask&logoColor=white&labelColor=000000" alt="Flask" />
+  <img src="https://img.shields.io/badge/INTELLIGENCE-GEMINI_AI-111111?style=flat&logo=googlegemini&logoColor=white&labelColor=8B0000" alt="Gemini AI" />
+  <img src="https://img.shields.io/badge/DATABASE-SQLITE-111111?style=flat&logo=sqlite&logoColor=white&labelColor=000000" alt="SQLite" />
+  <img src="https://img.shields.io/badge/DESIGN-CYBERPUNK_GLASS-111111?style=flat&labelColor=8B0000" alt="Glassmorphism" />
+</div>
 
-In the world of car collecting, owners often rely on fragmented methods like Excel spreadsheets, physical folders, or mental notes to track their vehicle's specifications, service history, and valuation. This approach is prone to data loss and lacks the visual excitement that defines the hobby. Octane Vault solves this problem by centralizing every aspect of garage management into a unified, secure, and visually immersive web application. It integrates financial analytics, maintenance tracking, and AI-powered automation to transform a mundane inventory list into a dynamic portfolio.
+<br />
 
-The application is built to simulate a high-end SaaS (Software as a Service) product, prioritizing **User Experience** through a custom "Glassmorphism" design language (translucent panels, neon accents) while ensuring robust **Data Utility** through features like CSV exports, relational database tracking, and real-time equity calculation.
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #8B0000; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+  🏁 PROJECT OVERVIEW
+</h2>
 
-At its core, Octane Vault is not just a database; it is an intelligent assistant. By leveraging Google's **Gemini AI**, the system removes the tedium of data entry. A user simply types "Ferrari F40," and the system automatically synthesizes the engine type, horsepower, acceleration metrics, and original MSRP, while simultaneously fetching a high-resolution image from Wikipedia. This seamless fusion of external APIs and internal database logic defines the user experience.
+**Octane Vault** is a high-performance asset management platform and "Garage Operating System" engineered for automotive collectors and enthusiasts. 
 
----
+In the traditional car collecting landscape, owners often rely on fragmented tools—spreadsheets and physical folders—to track vehicle specifications and service histories. Octane Vault centralizes every facet of garage management into a unified, secure, and visually immersive ecosystem. By integrating financial analytics and **AI-powered automation**, the platform transforms a static inventory list into a dynamic investment portfolio.
 
-### File Breakdown & Technical Architecture
+<br />
 
-The project relies on a robust Flask backend coupled with a custom-styled frontend. Below is a detailed explanation of the file structure and the logic contained within each component.
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #8B0000; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+  🤖 INTELLIGENT DATA SYNTHESIS
+</h2>
 
-#### `app.py`
-This is the core controller of the application, written in Python using the Flask framework. It initializes the application, configures the session (filesystem-based for persistence), and establishes the connection to the SQLite database.
-* **Route Logic:** It contains distinct routes for every major feature:
-    * `/` (Index): Renders the main dashboard, handles search queries via SQL `LIKE` operators, and computes aggregate statistics (Total Equity, Car Count).
-    * `/add`: Handles both GET (form display) and POST (database insertion) requests. It includes logic to intercept the "Auto-Fill" button, triggered by `request.form.get("auto_fill")`, which delegates tasks to `helpers.py`.
-    * `/compare`: A complex route that accepts a list of vehicle IDs (`request.args.getlist("id")`), executes a dynamic SQL query using placeholders, and passes the objects to the comparison template.
-    * `/leaderboard`: Executes an aggregation query (`GROUP BY users.id`) to rank all users on the platform based on their total garage value.
-    * `/profile`: A personal statistics page that aggregates the user's total fleet value and displays their "Rank" badge.
-* **Context Processors:** I implemented a custom context processor, `inject_user_status()`, which runs before every template render. It calculates the user's "Rank" (Rookie, VIP, Magnate) based on their portfolio value, making this data globally available to the Navbar without code repetition.
+The system leverages **Google Gemini AI** to remove the friction of data entry. By simply inputting a model name, the system autonomously synthesizes engine configurations and performance metrics, fetching high-resolution imagery via the **Wikipedia API**.
 
-#### `helpers.py`
-This utility module serves as the "Brain" of the application, abstracting complex logic away from `app.py`.
-* **`get_car_data(make, model)`:** This is the most complex function in the project. It orchestrates a multi-step API pipeline:
-    1.  It constructs a prompt for **Google Gemini AI** to request specific JSON-formatted data (Horsepower, Price, Engine).
-    2.  It uses Regex (`re.sub`) to sanitize the AI response, ensuring no Markdown formatting breaks the JSON parser.
-    3.  It calls `get_wiki_image()` to search the **Wikipedia API** for a relevant image thumbnail.
-* **Reliability Engineering:** Crucially, this file contains a `get_fallback_data()` function. If the AI service times out or hits a rate limit, this "Smart Backup" provides hardcoded specifications for popular cars (e.g., F40, Supra, P1). This ensures the presentation never fails due to external API outages.
+<div align="center">
+  <br />
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXI1N3dhdjhreWNmNGs1ZnFkd2RvYWttOWlidzVudWlwbjlkNDBvdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/agkTTYGi3ZE4INs1Z0/giphy.gif" height="180" alt="Lamborghini - The Leader" />
+  <br />
+  <br />
+  <p style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #8B0000; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 2px 2px 0 #000;">
+    <b>— VERIFIED AI RECOGNITION —</b>
+  </p>
+  <br />
+  <img src="https://cdn.simpleicons.org/bmw/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/ford/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nissan/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/volkswagen/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/volvo/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/mclaren/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fiat/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/peugeot/ffffff" height="35" />
+  <br /><br />
+  <img src="https://cdn.simpleicons.org/renault/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/citroen/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/hyundai/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/kia/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/mazda/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/suzuki/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/subaru/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/mitsubishi/ffffff" height="35" />
+  <br /><br />
+  <img src="https://cdn.simpleicons.org/mini/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/seat/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/skoda/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/bugatti/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/opel/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/dacia/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/jeep/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/acura/ffffff" height="35" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/infiniti/ffffff" height="35" />
+</div>
 
-#### `garage.db`
-A relational SQLite database containing three normalized tables:
-* `users`: Stores authentication data (ID, Username, Hashed Password).
-* `cars`: The primary inventory table. It stores technical specs, image URLs, and includes a Foreign Key (`user_id`) linking it to the owner.
-* `services`: A separate table for maintenance logs. It links to `cars.id`, allowing a "One-to-Many" relationship (One Car can have Many Service Records). This structure enables the "Total Invested" calculation (`Purchase Price` + `Sum of Service Costs`).
+<br />
 
-#### `static/styles.css`
-Instead of relying on a pre-built Bootstrap theme, I wrote a custom CSS design system from scratch (over 250 lines).
-* **Variables:** Usage of CSS Variables (`--accent-red`, `--glass-bg`) ensures consistent theming.
-* **Animations:** It features extensive use of `@keyframes` for the "Phantom Drift" background animation, the "Laser Scan" effect on card hover, and the "Power Up" animations for the progress bars.
-* **Glassmorphism:** Heavy use of `backdrop-filter: blur(15px)` and `rgba` alpha channels to create the premium "frosted glass" look over the animated background.
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #8B0000; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+  🏎️ TECHNICAL ARCHITECTURE
+</h2>
 
-#### `templates/`
-These files use the **Jinja2** templating engine to render dynamic data.
-* `layout.html`: The skeleton of the site. It handles the responsive Navbar, Flash Messaging (Toast notifications), and the dynamic "Status Badge" injection.
-* `index.html`: The dashboard features a JavaScript logic block that renders the **Chart.js** doughnut chart and handles the 3D "Tilt" effect on the car cards using mouse coordinate tracking.
-* `add.html`: A split-interface form. It uses Jinja conditionals to auto-populate fields if AI data is returned, or leaves them blank for manual entry.
-* `compare.html`: A visual-heavy template that uses CSS variables (e.g., `style="--target-width: 85%"`) to animate the comparison bars based on the vehicle's relative performance  stats.
-* `profile.html`: Displays a summary of the user's account, total assets, and fleet size using the glassmorphism card style.
-* `register.html` / `login.html`: Secure authentication forms with visual validation.
+<details>
+<summary><b>📂 EXPAND VAULT DIRECTORY</b></summary>
+<br />
 
----
+```text
+octane-vault/
+├── app.py                 # Core routing & session logic
+├── helpers.py             # Gemini AI & API pipeline
+├── garage.db              # Normalized SQLite relational database
+├── static/
+│   └── styles.css         # Custom Glassmorphism UI & Keyframes
+└── templates/
+    ├── layout.html        # Jinja2 master template
+    ├── index.html         # Dashboard & 3D Tilt Cards
+    ├── add.html           # AI Auto-fill forms
+    ├── compare.html       # Dynamic specification comparison
+    └── profile.html       # Aggregate equity statistics
+```
+</details>
 
-###  Design Choices
+<br />
 
-#### Relational Database for Maintenance
-I debated whether to simply include a "Maintenance Cost" text field in the `cars` table to save time. However, I chose to implement a separate `services` table linked via Foreign Key.
-* **Why?** A single text field is static and prone to error. A relational table allows users to log *specific* events (e.g., "Oil Change - $200" on Jan 1st, "New Tires - $1000" on Feb 1st). This granular data allows the application to mathematically calculate the "Total Equity" dynamically by summing these records. It adds significant complexity to the SQL queries but provides immense utility to the user, making the app feel like a professional tool rather than a toy.
+🧠 **The Backend Engine (app.py)**
+Built on Flask, the backend serves as the traffic warden for data flow. It features:
+* **Dynamic Routing:** Multi-vehicle comparison engines and aggregate portfolio analytics.
+* **Context Processors:** The `inject_user_status()` processor calculates real-time user Ranks (Rookie, VIP, Magnate) based on garage valuation.
 
-#### AI Fallback System (The "Mock" Engine)
-Relying on external APIs (Google Gemini) introduces latency and failure risks during a live demo or high-traffic periods.
-* **Why?** I implemented a "Smart Fallback" system in `helpers.py`. If the AI request fails (400/500 error), the system instantly reverts to a local dictionary of pre-set data for common cars. This design choice ensures reliability. A user (or grader) will never see a crash screen; they will simply see the data appear instantly, maintaining the illusion of a perfect system even when the internet connection is unstable.
+⚡ **The Brain (helpers.py)**
+* **API Orchestration:** Manages the pipeline for Gemini AI prompts and sanitized JSON responses.
+* **Reliability Engineering:** Features a Smart Fallback System that reverts to localized datasets if external APIs timeout, ensuring 100% uptime.
 
-#### CSS Animations vs. JavaScript
-For the visual effects (floating cards, scanning lasers, background drift), I chose to use native CSS Animations (`@keyframes`) rather than heavy JavaScript libraries.
-* **Why?** CSS animations are hardware-accelerated by the browser's GPU, resulting in silky smooth 60fps performance even on lower-end devices. JavaScript was reserved strictly for logic (Charts, Data fetching), keeping the frontend lightweight and performant.
+🗄️ **Relational Data Model (garage.db)**
+* **One-to-Many Maintenance:** A dedicated services table links to individual cars, allowing the system to mathematically calculate "Total Investment" by summing cumulative service costs.
+
+🎨 **Design System (static/styles.css)**
+* **Glassmorphism:** Employs `backdrop-filter: blur(15px)` for a premium "frosted glass" interface.
+* **GPU-Acceleration:** Native CSS `@keyframes` handle the "Phantom Drift" and "Laser Scan" effects at a silky 60fps.
+
+<br />
+
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #8B0000; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+⚙️ KEY DESIGN CHOICES
+</h2>
+
+* **Relational Maintenance:** Choosing a dedicated table over a text field allows for an audit trail of expenses, transforming the app into a professional financial tool.
+* **AI Fallback:** Hardcoded "Mock Engines" for common vehicles maintain the illusion of intelligence even during internet instability.
+* **Hardware-Accelerated UI:** Favors CSS over JS for visuals to keep the main thread free for heavy database processing.
+
+<br />
+
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #8B0000; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+🚀 QUICK START / INSTALLATION
+</h2>
+
+To deploy Octane Vault locally, run the following commands in your terminal:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/bavish007/cs50x.git
+
+# 2. Navigate into the directory
+cd "cs50x/Week 10 The End/Final Project/Octane_Vault"
+
+# 3. Install required Python packages
+pip install -r requirements.txt
+
+# 4. Initialize the SQLite Database
+flask run
+```
+
+<div align="center">
+<br />
+<a href="../README.md"><img src="https://img.shields.io/badge/RETURN_TO_MASTER_INDEX-111111?style=flat&logo=github&logoColor=white&labelColor=8B0000" alt="Back to Master Index" /></a>
+</div>
