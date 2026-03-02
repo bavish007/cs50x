@@ -1,136 +1,63 @@
-<br>
-
-## 🔮 Complete System Architecture
-
-<table>
-  <tbody><tr>
-    <td>
-      <h3>🐱 Week 0: Scratch</h3>
-      <p><i>Visual Logic &amp; Abstraction</i></p>
-      <img src="https://media.giphy.com/media/QPQ3xlVRgmuZM7g79s/giphy.gif">
-      <br><br>
-      <a href="./Week%200%20Scratch">
-        <img src="https://img.shields.io/badge/View_Module-2ea44f?style=for-the-badge">
-      </a>
-    </td>
-    <td>
-      <h3>💻 Week 1: C</h3>
-      <p><i>Memory &amp; Compilation</i></p>
-      <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif">
-      <br><br>
-      <a href="./Week%201%20C">
-        <img src="https://img.shields.io/badge/View_Module-00599C?style=for-the-badge">
-      </a>
-    </td>
-    <td>
-      <h3>📊 Week 2: Arrays</h3>
-      <p><i>Algorithms &amp; Complexity</i></p>
-      <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif">
-      <br><br>
-      <a href="./Week%202%20Arrays">
-        <img src="https://img.shields.io/badge/View_Module-orange?style=for-the-badge">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>🔍 Week 3: Algorithms</h3>
-      <p><i>Search &amp; Sort Mechanisms</i></p>
-      <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif">
-      <br><br>
-      <a href="./Week%203%20Algorithms">
-        <img src="https://img.shields.io/badge/View_Module-blue?style=for-the-badge">
-      </a>
-    </td>
-    <td>
-      <h3>🧠 Week 4: Memory</h3>
-      <p><i>Pointers &amp; Hexadecimal</i></p>
-      <img src="https://media.giphy.com/media/3o6wreo44azjQtfhM4/giphy.gif">
-      <br><br>
-      <a href="./Week%204%20Memory">
-        <img src="https://img.shields.io/badge/View_Module-purple?style=for-the-badge">
-      </a>
-    </td>
-    <td>
-      <h3>🌲 Week 5: Data Structures</h3>
-      <p><i>Trees, Hash Tables, Tries</i></p>
-      <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
-      <br><br>
-      <a href="./Week%205%20Data%20Structures">
-        <img src="https://img.shields.io/badge/View_Module-red?style=for-the-badge">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>🐍 Week 6: Python</h3>
-      <p><i>High-Level Scripting</i></p>
-      <img src="https://media.giphy.com/media/2A6xoqXc9qML9gzBUE/giphy.gif">
-      <br><br>
-      <a href="./Week%206%20Python">
-        <img src="https://img.shields.io/badge/View_Module-3776AB?style=for-the-badge">
-      </a>
-    </td>
-    <td>
-      <h3>🗄️ Week 7: SQL</h3>
-      <p><i>Relational Databases</i></p>
-      <img src="https://media.giphy.com/media/3oKIPnAiaCRi8INNWU/giphy.gif">
-      <br><br>
-      <a href="./Week%207%20SQL">
-        <img src="https://img.shields.io/badge/View_Module-003B57?style=for-the-badge">
-      </a>
-    </td>
-    <td>
-      <h3>🌐 Week 8: HTML, CSS, JS</h3>
-      <p><i>Frontend Architecture</i></p>
-      <img src="https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif">
-      <br><br>
-      <a href="./Week%208%20HTML,%20CSS,%20JavaScript">
-        <img src="https://img.shields.io/badge/View_Module-E34F26?style=for-the-badge">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>🌶️ Week 9: Flask</h3>
-      <p><i>Backend Web Frameworks</i></p>
-      <img src="https://media.giphy.com/media/l41lOugZmGBtsoN44/giphy.gif">
-      <br><br>
-      <a href="./Week%209%20Flask">
-        <img src="https://img.shields.io/badge/View_Module-black?style=for-the-badge">
-      </a>
-    </td>
-    <td>
-      <h3>🤖 Artificial Intelligence</h3>
-      <p><i>LLMs &amp; Machine Learning</i></p>
-      <img src="https://media.giphy.com/media/3o7rc0qU6m5hneMsuc/giphy.gif">
-      <br><br>
-      <a href="./Artificial%20Intelligence">
-        <img src="https://img.shields.io/badge/View_Module-8A2BE2?style=for-the-badge">
-      </a>
-    </td>
-  </tr>
-</tbody></table>
-
-## 📈 Live Diagnostics
-
 <div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=bavish007&show_icons=true&theme=tokyonight&hide_border=true" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bavish007&layout=compact&theme=tokyonight&hide_border=true" />
-      </td>
-    </tr>
-  </table>
+  <br />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=40&pause=1000&color=FF3B3F&center=true&vCenter=true&width=800&height=80&lines=CS50x+MASTER+VAULT;SYSTEM+ARCHITECTURE;FULL-STACK+ENGINEERING;ARTIFICIAL+INTELLIGENCE" alt="Typing SVG" /></a>
+  <p style="color: #FF3B3F; text-shadow: 1px 1px 0px #000;"><i>An introduction to the intellectual enterprises of computer science and the art of programming.</i></p>
+  <br />
+
+  <img src="https://img.shields.io/badge/AUTHOR-BAVISH_REDDY-111111?style=for-the-badge&labelColor=FF3B3F" alt="Author" />
+  <img src="https://img.shields.io/badge/COURSE-CS50x_HARVARD-111111?style=for-the-badge&labelColor=FF3B3F" alt="Course" />
+  <img src="https://img.shields.io/badge/STATUS-ALL_SYSTEMS_OPTIMIZED-111111?style=for-the-badge&labelColor=FF3B3F" alt="Status" />
 </div>
 
-## 🐍 Contribution Graph
+<br />
+
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #FF3B3F; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+  📂 SYSTEM DIRECTORY
+</h2>
+
+| MODULE | INTELLECTUAL FOCUS | TECH STACK | REPOSITORY ACCESS |
+| :--- | :--- | :--- | :---: |
+| **`WEEK 00`** | Visual Logic & Abstraction | <img src="https://img.shields.io/badge/Scratch-111111?style=flat&logo=scratch&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%200%20Scratch) |
+| **`WEEK 01`** | Memory & Compilation | <img src="https://img.shields.io/badge/C-111111?style=flat&logo=c&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%201%20C) |
+| **`WEEK 02`** | Algorithms & Complexity | <img src="https://img.shields.io/badge/Arrays-111111?style=flat&logo=c&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%202%20Arrays) |
+| **`WEEK 03`** | Search & Sort Mechanisms | <img src="https://img.shields.io/badge/Algorithms-111111?style=flat&logo=thealgorithms&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%203%20Algorithms) |
+| **`WEEK 04`** | Pointers & Hexadecimal | <img src="https://img.shields.io/badge/Memory-111111?style=flat&logo=thealgorithms&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%204%20Memory) |
+| **`WEEK 05`** | Trees, Hash Tables, Tries | <img src="https://img.shields.io/badge/Data_Structures-111111?style=flat&logo=files&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%205%20Data%20Structures) |
+| **`WEEK 06`** | High-Level Scripting | <img src="https://img.shields.io/badge/Python-111111?style=flat&logo=python&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%206%20Python) |
+| **`WEEK 07`** | Relational Databases | <img src="https://img.shields.io/badge/SQLite-111111?style=flat&logo=sqlite&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%207%20SQL) |
+| **`WEEK 08`** | Frontend Architecture | <img src="https://img.shields.io/badge/HTML_CSS_JS-111111?style=flat&logo=html5&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%208%20HTML,%20CSS,%20JavaScript) |
+| **`WEEK 09`** | Backend Web Frameworks | <img src="https://img.shields.io/badge/Flask-111111?style=flat&logo=flask&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%209%20Flask) |
+| **`FINAL`** | Octane Vault | <img src="https://img.shields.io/badge/Full_Stack-111111?style=flat&logo=flask&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Week%2010%20The%20End/Final%20Project/Octane_Vault) |
+| **`AI`** | LLMs & Machine Learning | <img src="https://img.shields.io/badge/Artificial_Intelligence-111111?style=flat&logo=openai&logoColor=FF3B3F" /> | [🔗 **EXECUTE**](./Artificial%20Intelligence) |
+
+<br />
+
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #FF3B3F; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+  📊 LIVE TELEMETRY
+</h2>
 
 <div align="center">
-  <img src="https://github.com/bavish007/bavish007/blob/output/github-contribution-grid-snake.svg" alt="snake" />
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bavish007&bg_color=111111&title_color=FF3B3F&text_color=ffffff&icon_color=FF3B3F&hide_border=true&show_icons=true)](https://github.com/bavish007)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bavish007&layout=compact&bg_color=111111&title_color=FF3B3F&text_color=ffffff&hide_border=true)](https://github.com/bavish007)
+
 </div>
+
+<br />
+
+<h2 style="font-family: 'Orbitron', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: #FF3B3F; text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 3px 3px 0 #000;">
+  📈 COMMITMENT MATRIX
+</h2>
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bavish007&bg_color=111111&color=FF3B3F&line=FF3B3F&point=FFFFFF&area=true&hide_border=true)
+
+</div>
+
+<br />
 
 ---
+<div align="center">
+  <p style="color: #FF3B3F;"><i>Master Repository curated by @bavish007</i></p>
+</div>
