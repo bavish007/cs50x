@@ -99,20 +99,24 @@ LLMs and Machine Learning])
 
 ## 📂 Weekly Breakdown
 
+<div align="center">
+
 | Module | Intellectual Focus | Tech Stack | Repository |
-| :---: | :--- | :--- | :---: |
+|:------:|:-------------------|:----------:|:----------:|
 | **`WEEK 00`** | Visual Logic & Abstraction | ![Scratch](https://img.shields.io/badge/Scratch-0D1117?style=plastic&logo=scratch&logoColor=A51C30) | [🔗 Open](./Week%200%20Scratch) |
 | **`WEEK 01`** | Memory & Compilation | ![C](https://img.shields.io/badge/C-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%201%20C) |
-| **`WEEK 02`** | Data & Complexity | ![Arrays](https://img.shields.io/badge/Arrays%2FC-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%202%20Arrays) |
+| **`WEEK 02`** | Data & Complexity | ![Arrays/C](https://img.shields.io/badge/Arrays%2FC-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%202%20Arrays) |
 | **`WEEK 03`** | Search & Sort Mechanisms | ![Algorithms](https://img.shields.io/badge/Algorithms-0D1117?style=plastic&logo=thealgorithms&logoColor=A51C30) | [🔗 Open](./Week%203%20Algorithms) |
-| **`WEEK 04`** | Pointers & Hexadecimal | ![Memory](https://img.shields.io/badge/Memory%2FC-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%204%20Memory) |
+| **`WEEK 04`** | Pointers & Hexadecimal | ![Memory/C](https://img.shields.io/badge/Memory%2FC-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%204%20Memory) |
 | **`WEEK 05`** | Trees, Hash Tables, Tries | ![Data Structures](https://img.shields.io/badge/Data_Structures-0D1117?style=plastic&logo=stackexchange&logoColor=A51C30) | [🔗 Open](./Week%205%20Data%20Structures) |
 | **`WEEK 06`** | High-Level Scripting | ![Python](https://img.shields.io/badge/Python-0D1117?style=plastic&logo=python&logoColor=A51C30) | [🔗 Open](./Week%206%20Python) |
 | **`WEEK 07`** | Relational Databases | ![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=plastic&logo=sqlite&logoColor=A51C30) | [🔗 Open](./Week%207%20SQL) |
-| **`WEEK 08`** | Frontend Architecture | ![HTML CSS JS](https://img.shields.io/badge/HTML%2FCSS%2FJS-0D1117?style=plastic&logo=html5&logoColor=A51C30) | [🔗 Open](./Week%208%20HTML,%20CSS,%20JavaScript) |
+| **`WEEK 08`** | Frontend Architecture | ![HTML/CSS/JS](https://img.shields.io/badge/HTML%2FCSS%2FJS-0D1117?style=plastic&logo=html5&logoColor=A51C30) | [🔗 Open](./Week%208%20HTML,%20CSS,%20JavaScript) |
 | **`WEEK 09`** | Backend Web Frameworks | ![Flask](https://img.shields.io/badge/Flask-0D1117?style=plastic&logo=flask&logoColor=A51C30) | [🔗 Open](./Week%209%20Flask) |
 | **`FINAL`** | Full-Stack Capstone | ![Full Stack](https://img.shields.io/badge/Full_Stack-0D1117?style=plastic&logo=flask&logoColor=A51C30) | [🔗 Open](./Week%2010%20The%20End/Final%20Project/Octane_Vault) |
-| **`AI`** | LLMs & Machine Learning | ![AI](https://img.shields.io/badge/AI%2FML-0D1117?style=plastic&logo=openai&logoColor=A51C30) | [🔗 Open](./Artificial%20Intelligence) |
+| **`AI`** | LLMs & Machine Learning | ![AI/ML](https://img.shields.io/badge/AI%2FML-0D1117?style=plastic&logo=openai&logoColor=A51C30) | [🔗 Open](./Artificial%20Intelligence) |
+
+</div>
 
 ---
 
@@ -191,6 +195,7 @@ Building end-to-end web apps with Flask, Jinja2, and SQLite connected every prio
 ### Skills Covered in This Course
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#A51C30', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#8B0000', 'lineColor': '#C9D1D9', 'secondaryColor': '#1B4332', 'secondaryTextColor': '#ffffff', 'tertiaryColor': '#0D47A1', 'tertiaryTextColor': '#ffffff', 'fontSize': '14px'}}}%%
 mindmap
   root((CS50x))
     Systems Programming
