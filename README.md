@@ -2,17 +2,17 @@
 
 <div align="center">
   <br />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Harvard_University_logo.svg" width="220" alt="Harvard University" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Harvard_University_coat_of_arms.svg" width="120" alt="Harvard University Shield" />
   <br /><br />
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=IM+Fell+English&weight=700&size=42&pause=1000&color=A51C30&background=FFFFFF00&center=true&vCenter=true&width=900&height=90&lines=CS50x+%E2%80%94+Master+Vault;Harvard+University;Full-Stack+Engineering;Artificial+Intelligence" alt="CS50x Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Crimson+Text&weight=700&size=44&pause=1200&color=A51C30&center=true&vCenter=true&width=900&height=90&lines=CS50x+%E2%80%94+Master+Vault;Harvard+University;Full-Stack+Engineering;Artificial+Intelligence" alt="CS50x Typing SVG" /></a>
   <br />
-  <p><i>An introduction to the intellectual enterprises of computer science and the art of programming.</i></p>
+  <p><em>An introduction to the intellectual enterprises of computer science and the art of programming.</em></p>
   <br />
 
-  <img src="https://img.shields.io/badge/AUTHOR-BAVISH_REDDY-0D1117?style=flat-square&labelColor=A51C30" alt="Author" />
-  <img src="https://img.shields.io/badge/COURSE-CS50x_HARVARD-0D1117?style=flat-square&labelColor=A51C30" alt="Course" />
-  <img src="https://img.shields.io/badge/STATUS-COMPLETED-0D1117?style=flat-square&labelColor=2E7D32" alt="Status" />
-  <img src="https://img.shields.io/badge/LICENSE-MIT-0D1117?style=flat-square&labelColor=1565C0" alt="License" />
+  <img src="https://img.shields.io/badge/AUTHOR-BAVISH_REDDY-0D1117?style=plastic&labelColor=A51C30" alt="Author" />
+  <img src="https://img.shields.io/badge/COURSE-CS50x_HARVARD-0D1117?style=plastic&labelColor=A51C30" alt="Course" />
+  <img src="https://img.shields.io/badge/STATUS-COMPLETED-0D1117?style=plastic&labelColor=2E7D32" alt="Status" />
+  <img src="https://img.shields.io/badge/LICENSE-MIT-0D1117?style=plastic&labelColor=1565C0" alt="License" />
   <br /><br />
   <img src="https://img.shields.io/github/stars/bavish007/cs50x?style=social" alt="Stars" />
   <img src="https://img.shields.io/github/forks/bavish007/cs50x?style=social" alt="Forks" />
@@ -41,28 +41,51 @@
 
 ## 🗺️ Curriculum Roadmap
 
-> Click any topic node description below to navigate directly to that week's folder.
+| Week | Topic | Link |
+|:---:|:---|:---:|
+| **00** | Visual Logic & Abstraction — Scratch | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%200%20Scratch) |
+| **01** | Memory & Compilation — C | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%201%20C) |
+| **02** | Algorithms & Complexity — Arrays | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%202%20Arrays) |
+| **03** | Search & Sort — Algorithms | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%203%20Algorithms) |
+| **04** | Pointers & Hexadecimal — Memory | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%204%20Memory) |
+| **05** | Trees, Hash Tables, Tries — Data Structures | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%205%20Data%20Structures) |
+| **06** | High-Level Scripting — Python | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%206%20Python) |
+| **07** | Relational Databases — SQL | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%207%20SQL) |
+| **08** | Frontend Architecture — HTML, CSS, JS | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript) |
+| **09** | Backend Web Frameworks — Flask | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%209%20Flask) |
+| **FINAL** | Full-Stack Capstone — Octane Vault | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Week%2010%20The%20End/Final%20Project/Octane_Vault) |
+| **AI** | LLMs & Machine Learning — AI Track | [📁 Open](https://github.com/bavish007/cs50x/tree/main/Artificial%20Intelligence) |
 
 ```mermaid
 flowchart TD
-    A([🎓 CS50x Start]) --> B["<a href='https://github.com/bavish007/cs50x/tree/main/Week%200%20Scratch'>Week 0: Scratch — Visual Logic & Abstraction</a>"]
-    B --> C["<a href='https://github.com/bavish007/cs50x/tree/main/Week%201%20C'>Week 1: C — Memory & Compilation</a>"]
-    C --> D["<a href='https://github.com/bavish007/cs50x/tree/main/Week%202%20Arrays'>Week 2: Arrays — Algorithms & Complexity</a>"]
-    D --> E["<a href='https://github.com/bavish007/cs50x/tree/main/Week%203%20Algorithms'>Week 3: Algorithms — Search & Sort</a>"]
-    E --> F["<a href='https://github.com/bavish007/cs50x/tree/main/Week%204%20Memory'>Week 4: Memory — Pointers & Hexadecimal</a>"]
-    F --> G["<a href='https://github.com/bavish007/cs50x/tree/main/Week%205%20Data%20Structures'>Week 5: Data Structures — Trees, Hash Tables, Tries</a>"]
-    G --> H["<a href='https://github.com/bavish007/cs50x/tree/main/Week%206%20Python'>Week 6: Python — High-Level Scripting</a>"]
-    H --> I["<a href='https://github.com/bavish007/cs50x/tree/main/Week%207%20SQL'>Week 7: SQL — Relational Databases</a>"]
-    I --> J["<a href='https://github.com/bavish007/cs50x/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript'>Week 8: HTML, CSS, JS — Frontend Architecture</a>"]
-    J --> K["<a href='https://github.com/bavish007/cs50x/tree/main/Week%209%20Flask'>Week 9: Flask — Backend Web Frameworks</a>"]
-    K --> L(["<a href='https://github.com/bavish007/cs50x/tree/main/Week%2010%20The%20End/Final%20Project/Octane_Vault'>🏆 Final Project: Octane Vault</a>"])
-    B -.-> M(["<a href='https://github.com/bavish007/cs50x/tree/main/Artificial%20Intelligence'>🤖 AI Track: LLMs & Machine Learning</a>"])
+    A([🎓 CS50x Start]) --> B[Week 0 · Scratch\nVisual Logic and Abstraction]
+    B --> C[Week 1 · C\nMemory and Compilation]
+    C --> D[Week 2 · Arrays\nAlgorithms and Complexity]
+    D --> E[Week 3 · Algorithms\nSearch and Sort]
+    E --> F[Week 4 · Memory\nPointers and Hexadecimal]
+    F --> G[Week 5 · Data Structures\nTrees Hash Tables Tries]
+    G --> H[Week 6 · Python\nHigh-Level Scripting]
+    H --> I[Week 7 · SQL\nRelational Databases]
+    I --> J[Week 8 · HTML CSS JS\nFrontend Architecture]
+    J --> K[Week 9 · Flask\nBackend Web Frameworks]
+    K --> L([🏆 Final Project\nOctane Vault])
+    B -.-> M([🤖 AI Track\nLLMs and Machine Learning])
     L --> N([🎓 CS50x Certificate])
 
     style A fill:#A51C30,color:#fff,stroke:#8B0000,stroke-width:2px
     style L fill:#A51C30,color:#fff,stroke:#8B0000,stroke-width:2px
     style N fill:#1B4332,color:#fff,stroke:#1B4332,stroke-width:2px
     style M fill:#1a237e,color:#fff,stroke:#A51C30,stroke-width:2px
+    style B fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style C fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style D fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style E fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style F fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style G fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style H fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style I fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style J fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
+    style K fill:#2d1b1b,color:#f5f5f5,stroke:#A51C30
 ```
 
 ---
@@ -71,18 +94,18 @@ flowchart TD
 
 | Module | Intellectual Focus | Tech Stack | Repository |
 | :---: | :--- | :--- | :---: |
-| **`WEEK 00`** | Visual Logic & Abstraction | ![Scratch](https://img.shields.io/badge/Scratch-0D1117?style=flat-square&logo=scratch&logoColor=A51C30) | [🔗 Open](./Week%200%20Scratch) |
-| **`WEEK 01`** | Memory & Compilation | ![C](https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=A51C30) | [🔗 Open](./Week%201%20C) |
-| **`WEEK 02`** | Data & Complexity | ![Arrays](https://img.shields.io/badge/Arrays%2FC-0D1117?style=flat-square&logo=c&logoColor=A51C30) | [🔗 Open](./Week%202%20Arrays) |
-| **`WEEK 03`** | Search & Sort Mechanisms | ![Algorithms](https://img.shields.io/badge/Algorithms-0D1117?style=flat-square&logo=thealgorithms&logoColor=A51C30) | [🔗 Open](./Week%203%20Algorithms) |
-| **`WEEK 04`** | Pointers & Hexadecimal | ![Memory](https://img.shields.io/badge/Memory%2FC-0D1117?style=flat-square&logo=c&logoColor=A51C30) | [🔗 Open](./Week%204%20Memory) |
-| **`WEEK 05`** | Trees, Hash Tables, Tries | ![Data Structures](https://img.shields.io/badge/Data_Structures-0D1117?style=flat-square&logo=stackexchange&logoColor=A51C30) | [🔗 Open](./Week%205%20Data%20Structures) |
-| **`WEEK 06`** | High-Level Scripting | ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=A51C30) | [🔗 Open](./Week%206%20Python) |
-| **`WEEK 07`** | Relational Databases | ![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=A51C30) | [🔗 Open](./Week%207%20SQL) |
-| **`WEEK 08`** | Frontend Architecture | ![HTML CSS JS](https://img.shields.io/badge/HTML%2FCSS%2FJS-0D1117?style=flat-square&logo=html5&logoColor=A51C30) | [🔗 Open](./Week%208%20HTML,%20CSS,%20JavaScript) |
-| **`WEEK 09`** | Backend Web Frameworks | ![Flask](https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=A51C30) | [🔗 Open](./Week%209%20Flask) |
-| **`FINAL`** | Full-Stack Capstone | ![Full Stack](https://img.shields.io/badge/Full_Stack-0D1117?style=flat-square&logo=flask&logoColor=A51C30) | [🔗 Open](./Week%2010%20The%20End/Final%20Project/Octane_Vault) |
-| **`AI`** | LLMs & Machine Learning | ![AI](https://img.shields.io/badge/AI%2FML-0D1117?style=flat-square&logo=openai&logoColor=A51C30) | [🔗 Open](./Artificial%20Intelligence) |
+| **`WEEK 00`** | Visual Logic & Abstraction | ![Scratch](https://img.shields.io/badge/Scratch-0D1117?style=plastic&logo=scratch&logoColor=A51C30) | [🔗 Open](./Week%200%20Scratch) |
+| **`WEEK 01`** | Memory & Compilation | ![C](https://img.shields.io/badge/C-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%201%20C) |
+| **`WEEK 02`** | Data & Complexity | ![Arrays](https://img.shields.io/badge/Arrays%2FC-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%202%20Arrays) |
+| **`WEEK 03`** | Search & Sort Mechanisms | ![Algorithms](https://img.shields.io/badge/Algorithms-0D1117?style=plastic&logo=thealgorithms&logoColor=A51C30) | [🔗 Open](./Week%203%20Algorithms) |
+| **`WEEK 04`** | Pointers & Hexadecimal | ![Memory](https://img.shields.io/badge/Memory%2FC-0D1117?style=plastic&logo=c&logoColor=A51C30) | [🔗 Open](./Week%204%20Memory) |
+| **`WEEK 05`** | Trees, Hash Tables, Tries | ![Data Structures](https://img.shields.io/badge/Data_Structures-0D1117?style=plastic&logo=stackexchange&logoColor=A51C30) | [🔗 Open](./Week%205%20Data%20Structures) |
+| **`WEEK 06`** | High-Level Scripting | ![Python](https://img.shields.io/badge/Python-0D1117?style=plastic&logo=python&logoColor=A51C30) | [🔗 Open](./Week%206%20Python) |
+| **`WEEK 07`** | Relational Databases | ![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=plastic&logo=sqlite&logoColor=A51C30) | [🔗 Open](./Week%207%20SQL) |
+| **`WEEK 08`** | Frontend Architecture | ![HTML CSS JS](https://img.shields.io/badge/HTML%2FCSS%2FJS-0D1117?style=plastic&logo=html5&logoColor=A51C30) | [🔗 Open](./Week%208%20HTML,%20CSS,%20JavaScript) |
+| **`WEEK 09`** | Backend Web Frameworks | ![Flask](https://img.shields.io/badge/Flask-0D1117?style=plastic&logo=flask&logoColor=A51C30) | [🔗 Open](./Week%209%20Flask) |
+| **`FINAL`** | Full-Stack Capstone | ![Full Stack](https://img.shields.io/badge/Full_Stack-0D1117?style=plastic&logo=flask&logoColor=A51C30) | [🔗 Open](./Week%2010%20The%20End/Final%20Project/Octane_Vault) |
+| **`AI`** | LLMs & Machine Learning | ![AI](https://img.shields.io/badge/AI%2FML-0D1117?style=plastic&logo=openai&logoColor=A51C30) | [🔗 Open](./Artificial%20Intelligence) |
 
 ---
 
@@ -127,7 +150,7 @@ Building end-to-end web apps with Flask, Jinja2, and SQLite connected every prio
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXlubW95OWNvcnh0OGQ3NHNibXQzMnZsaTF5dTBnOXRkOXA1aXpyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/AEDD6xjlOxNMgFsUmA/giphy.gif" width="550" alt="Octane Vault Preview" />
   <br /><br />
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=IM+Fell+English&weight=600&size=30&pause=1000&color=A51C30&center=true&vCenter=true&width=700&height=60&lines=OCTANE+VAULT;THE+ULTIMATE+GARAGE+OS;AI-POWERED+ASSET+MANAGEMENT" alt="Octane Vault Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=32&pause=1000&color=A51C30&center=true&vCenter=true&width=700&height=65&lines=OCTANE+VAULT;THE+ULTIMATE+GARAGE+OS;AI-POWERED+ASSET+MANAGEMENT" alt="Octane Vault Typing SVG" /></a>
 </div>
 
 <br />
@@ -164,43 +187,43 @@ mindmap
     Systems Programming
       C Language
       Memory Management
-      Pointers & Addresses
+      Pointers and Addresses
       Data Structures
       Algorithms
     Web Development
-      HTML5 & CSS3
+      HTML5 and CSS3
       JavaScript
       Flask Framework
       Jinja2 Templates
       REST APIs
-    Data & AI
-      SQLite / SQL
+    Data and AI
+      SQLite and SQL
       Relational Design
       Python Scripting
       Gemini AI Integration
       Machine Learning Basics
-    Tools & Practices
-      Git & GitHub
+    Tools and Practices
+      Git and GitHub
       Linux CLI
-      VS Code / Codespaces
+      VS Code and Codespaces
       Debugging
       Security Fundamentals
 ```
 
 <div align="center">
 
-![C](https://img.shields.io/badge/C-0D1117?style=flat-square&logo=c&logoColor=A51C30)
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=A51C30)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=A51C30)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=sqlite&logoColor=A51C30)
-![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=flat-square&logo=html5&logoColor=A51C30)
-![CSS3](https://img.shields.io/badge/CSS3-0D1117?style=flat-square&logo=css3&logoColor=A51C30)
-![Flask](https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=A51C30)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-0D1117?style=flat-square&logo=bootstrap&logoColor=A51C30)
-![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=A51C30)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=A51C30)
-![Scratch](https://img.shields.io/badge/Scratch-0D1117?style=flat-square&logo=scratch&logoColor=A51C30)
-![Gemini AI](https://img.shields.io/badge/Gemini_AI-0D1117?style=flat-square&logo=googlegemini&logoColor=A51C30)
+![C](https://img.shields.io/badge/C-0D1117?style=plastic&logo=c&logoColor=A51C30)
+![Python](https://img.shields.io/badge/Python-0D1117?style=plastic&logo=python&logoColor=A51C30)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=plastic&logo=javascript&logoColor=A51C30)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=plastic&logo=sqlite&logoColor=A51C30)
+![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=plastic&logo=html5&logoColor=A51C30)
+![CSS3](https://img.shields.io/badge/CSS3-0D1117?style=plastic&logo=css3&logoColor=A51C30)
+![Flask](https://img.shields.io/badge/Flask-0D1117?style=plastic&logo=flask&logoColor=A51C30)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-0D1117?style=plastic&logo=bootstrap&logoColor=A51C30)
+![Git](https://img.shields.io/badge/Git-0D1117?style=plastic&logo=git&logoColor=A51C30)
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=plastic&logo=linux&logoColor=A51C30)
+![Scratch](https://img.shields.io/badge/Scratch-0D1117?style=plastic&logo=scratch&logoColor=A51C30)
+![Gemini AI](https://img.shields.io/badge/Gemini_AI-0D1117?style=plastic&logo=googlegemini&logoColor=A51C30)
 
 </div>
 
@@ -259,21 +282,15 @@ mindmap
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=bavish007&bg_color=0D1117&title_color=A51C30&text_color=C9D1D9&icon_color=A51C30&hide_border=true&show_icons=true&cache_seconds=86400" alt="GitHub Stats" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bavish007&layout=compact&bg_color=0D1117&title_color=A51C30&text_color=C9D1D9&hide_border=true&cache_seconds=86400" alt="Top Languages" />
+| GitHub Stats | Top Languages |
+|:---:|:---:|
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bavish007&show_icons=true&theme=github_dark&title_color=A51C30&icon_color=A51C30&hide_border=true&count_private=true) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bavish007&layout=compact&theme=github_dark&title_color=A51C30&hide_border=true) |
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bavish007&bg_color=0D1117&color=A51C30&line=A51C30&point=C9D1D9&area=true&hide_border=true" alt="Activity Graph" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=bavish007&theme=darkhub&no-frame=true&row=1&column=6&margin-w=15" alt="GitHub Trophies" />
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=bavish007&theme=darkhub&no-frame=true&row=1&column=7&margin-w=10)
 
 </div>
 
@@ -290,7 +307,7 @@ mindmap
 | **Track** | CS50x |
 | **Certificate** | [📄 View Verified Certificate](https://certificates.cs50.io/281e3ed5-304f-4016-8bc0-e1c511825376.pdf?size=letter) |
 
-[![CS50x Certificate](https://img.shields.io/badge/CS50x-Certificate_Verified-0D1117?style=flat-square&logo=academia&labelColor=A51C30)](https://certificates.cs50.io/281e3ed5-304f-4016-8bc0-e1c511825376.pdf?size=letter)
+[![CS50x Certificate](https://img.shields.io/badge/CS50x-Certificate_Verified-0D1117?style=plastic&logo=academia&labelColor=A51C30)](https://certificates.cs50.io/281e3ed5-304f-4016-8bc0-e1c511825376.pdf?size=letter)
 
 </div>
 
@@ -300,7 +317,7 @@ mindmap
 
 <div align="center">
 
-[![MIT License](https://img.shields.io/badge/License-MIT-0D1117?style=flat-square&labelColor=1565C0)](./LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-0D1117?style=plastic&labelColor=1565C0)](./LICENSE)
 
 </div>
 
@@ -314,8 +331,8 @@ This repository is licensed under the [MIT License](./LICENSE).
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-bavish007-0D1117?style=flat-square&logo=github&logoColor=white&labelColor=A51C30)](https://github.com/bavish007)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=flat-square&logo=linkedin&logoColor=white&labelColor=0077B5)](https://linkedin.com/in/bavish007)
+[![GitHub](https://img.shields.io/badge/GitHub-bavish007-0D1117?style=plastic&logo=github&logoColor=white&labelColor=A51C30)](https://github.com/bavish007)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bavish_Reddy_Muske-0D1117?style=plastic&logo=linkedin&logoColor=white&labelColor=0077B5)](https://www.linkedin.com/in/bavishreddymuske)
 
 </div>
 
@@ -323,18 +340,18 @@ This repository is licensed under the [MIT License](./LICENSE).
 
 <div align="center">
 
-⭐ **Star** this repo if CS50x changed how you think about computers · 🍴 **Fork** to track your own journey · 👁️ **Watch** for updates
+⭐ **Star** this repo if CS50x changed how you think about computers &nbsp;·&nbsp; 🍴 **Fork** to track your own journey &nbsp;·&nbsp; 👁️ **Watch** for updates
 
 <br />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=IM+Fell+English&weight=400&size=18&pause=1000&color=A51C30&center=true&vCenter=true&width=700&height=50&lines=This+is+CS50.+%E2%80%A2+Veritas.+%E2%80%A2+Ad+Meliora." alt="Footer Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Crimson+Text&weight=600&size=20&pause=1200&color=A51C30&center=true&vCenter=true&width=700&height=50&lines=This+is+CS50.+%E2%80%A2+Veritas.+%E2%80%A2+Ad+Meliora." alt="Footer Typing SVG" /></a>
 
 <br />
 
-*Made with ❤️ and countless hours of debugging · Harvard University · CS50x*
+*Made with ❤️ and countless hours of debugging &nbsp;·&nbsp; Harvard University &nbsp;·&nbsp; CS50x*
 
 <br />
 
-[⬆️ Back to Top](#top)
+[![⬆️ Back to Top](https://img.shields.io/badge/⬆_Back_to_Top-A51C30?style=plastic&logoColor=white)](#top)
 
 </div>
