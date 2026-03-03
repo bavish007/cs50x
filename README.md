@@ -5,12 +5,18 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Harvard_University_coat_of_arms.svg" width="130" alt="Harvard University Crest" />
   <br /><br />
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Crimson+Text&weight=700&size=52&duration=3000&pause=1500&color=A51C30&center=true&vCenter=true&width=950&height=100&lines=CS50x+%E2%80%94+Master+Vault;Harvard+University;Full-Stack+Engineering;Artificial+Intelligence" alt="CS50x Typing SVG" /></a>
+  <br />
+  <sub><i>An introduction to the intellectual enterprises of computer science and the art of programming</i></sub>
   <br /><br />
 
   <img src="https://img.shields.io/badge/AUTHOR-BAVISH_REDDY-0D1117?style=plastic&labelColor=A51C30" alt="Author" />
   <img src="https://img.shields.io/badge/COURSE-CS50x_HARVARD-0D1117?style=plastic&labelColor=A51C30" alt="Course" />
   <img src="https://img.shields.io/badge/STATUS-COMPLETED-0D1117?style=plastic&labelColor=1B5E20" alt="Status" />
   <img src="https://img.shields.io/badge/LICENSE-MIT-0D1117?style=plastic&labelColor=0D47A1" alt="License" />
+  <br /><br />
+  <img src="https://img.shields.io/github/stars/bavish007/cs50x?style=social" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/bavish007/cs50x?style=social" alt="Forks" />
+  <img src="https://img.shields.io/github/watchers/bavish007/cs50x?style=social" alt="Watchers" />
 </div>
 
 <br />
@@ -21,18 +27,13 @@
 
 <div align="center">
 
-| | Section | Description |
-|:---:|:---|:---|
-| 🗺️ | [Curriculum Roadmap](#️-curriculum-roadmap) | Complete week-by-week course progression |
-| 📂 | [Weekly Breakdown](#-weekly-breakdown) | Problem sets, labs & tech stacks per module |
-| 💡 | [Learning Moments](#-highlighted-learning-moments) | Key insights from each phase of the course |
-| 🏎️ | [Final Project](#️-final-project-octane-vault) | Octane Vault — AI-powered automotive platform |
-| 🪐 | [What You Can Learn](#-what-you-can-learn-from-cs50x) | Skills & technologies covered in CS50x |
-| 📖 | [Study Guide & Resources](#-study-guide--resources) | Official links, tools & weekly takeaways |
-| 📊 | [Repository Analytics](#-repository-analytics) | GitHub stats, streaks & language breakdown |
-| 🎓 | [Certificate](#-certificate--verification) | Verified Harvard CS50x certificate |
-| ⚖️ | [License](#️-license--academic-honesty) | MIT License & academic honesty policy |
-| 💬 | [Get in Touch](#-get-in-touch) | GitHub & LinkedIn contact links |
+| | Section | | Section |
+|:---:|:---|:---:|:---|
+| 🗺️ | [Curriculum Roadmap](#️-curriculum-roadmap) | 📂 | [Weekly Breakdown](#-weekly-breakdown) |
+| 💡 | [Learning Moments](#-highlighted-learning-moments) | 🏎️ | [Final Project](#️-final-project-octane-vault) |
+| 🪐 | [What You Can Learn](#-what-you-can-learn-from-cs50x) | 📖 | [Study Guide & Resources](#-study-guide--resources) |
+| 📊 | [Repository Analytics](#-repository-analytics) | 🎓 | [Certificate](#-certificate--verification) |
+| ⚖️ | [License](#️-license--academic-honesty) | 💬 | [Get in Touch](#-get-in-touch) |
 
 </div>
 
@@ -86,6 +87,20 @@ Octane Vault])
     L --> N([🎓 CS50x Certificate])
     B -.-> M([🤖 AI Track
 LLMs and Machine Learning])
+
+    click B "https://github.com/bavish007/cs50x/tree/main/Week%200%20Scratch" "Open Week 0 Folder" _blank
+    click C "https://github.com/bavish007/cs50x/tree/main/Week%201%20C" "Open Week 1 Folder" _blank
+    click D "https://github.com/bavish007/cs50x/tree/main/Week%202%20Arrays" "Open Week 2 Folder" _blank
+    click E "https://github.com/bavish007/cs50x/tree/main/Week%203%20Algorithms" "Open Week 3 Folder" _blank
+    click F "https://github.com/bavish007/cs50x/tree/main/Week%204%20Memory" "Open Week 4 Folder" _blank
+    click G "https://github.com/bavish007/cs50x/tree/main/Week%205%20Data%20Structures" "Open Week 5 Folder" _blank
+    click H "https://github.com/bavish007/cs50x/tree/main/Week%206%20Python" "Open Week 6 Folder" _blank
+    click I "https://github.com/bavish007/cs50x/tree/main/Week%207%20SQL" "Open Week 7 Folder" _blank
+    click J "https://github.com/bavish007/cs50x/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript" "Open Week 8 Folder" _blank
+    click K "https://github.com/bavish007/cs50x/tree/main/Week%209%20Flask" "Open Week 9 Folder" _blank
+    click L "https://github.com/bavish007/cs50x/tree/main/Week%2010%20The%20End/Final%20Project/Octane_Vault" "Open Final Project Folder" _blank
+    click M "https://github.com/bavish007/cs50x/tree/main/Artificial%20Intelligence" "Open AI Track Folder" _blank
+    click N "https://certificates.cs50.io/281e3ed5-304f-4016-8bc0-e1c511825376.pdf?size=letter" "View Certificate" _blank
 
     style A fill:#A51C30,color:#fff,stroke:#8B0000,stroke-width:2px
     style L fill:#A51C30,color:#fff,stroke:#8B0000,stroke-width:2px
