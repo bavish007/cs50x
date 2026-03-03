@@ -225,7 +225,7 @@ graph TB
 <div align="center">
 
 <a href="./Week%2010%20The%20End/Final%20Project/Octane_Vault">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=18&pause=2000&color=A51C30&center=true&vCenter=true&width=420&height=45&lines=📁+VIEW+FULL+PROJECT+→;EXPLORE+OCTANE+VAULT+→;OPEN+SOURCE+CODE+→" alt="View Full Project" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=18&pause=3000&color=A51C30&center=true&vCenter=true&width=420&height=45&lines=📁+VIEW+FULL+PROJECT+→" alt="View Full Project" />
 </a>
 
 <br />
@@ -244,13 +244,13 @@ graph TB
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#1a0000',
-  'primaryTextColor': '#f5c6c6',
-  'primaryBorderColor': '#A51C30',
-  'secondaryColor': '#0D1117',
-  'secondaryTextColor': '#C9D1D9',
+  'primaryColor': '#A51C30',
+  'primaryTextColor': '#ffffff',
+  'primaryBorderColor': '#8B0000',
+  'secondaryColor': '#2d1b1b',
+  'secondaryTextColor': '#f5c6c6',
   'tertiaryColor': '#1a0a0a',
-  'tertiaryTextColor': '#e8c4c4',
+  'tertiaryTextColor': '#e8b4a0',
   'lineColor': '#A51C30',
   'fontSize': '14px'
 }}}%%
