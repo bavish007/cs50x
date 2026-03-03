@@ -13,10 +13,6 @@
   <img src="https://img.shields.io/badge/COURSE-CS50x_HARVARD-0D1117?style=plastic&labelColor=A51C30" alt="Course" />
   <img src="https://img.shields.io/badge/STATUS-COMPLETED-0D1117?style=plastic&labelColor=1B5E20" alt="Status" />
   <img src="https://img.shields.io/badge/LICENSE-MIT-0D1117?style=plastic&labelColor=0D47A1" alt="License" />
-  <br /><br />
-  <img src="https://img.shields.io/github/stars/bavish007/cs50x?style=social" alt="Stars" />
-  <img src="https://img.shields.io/github/forks/bavish007/cs50x?style=social" alt="Forks" />
-  <img src="https://img.shields.io/github/watchers/bavish007/cs50x?style=social" alt="Watchers" />
 </div>
 
 <br />
@@ -40,25 +36,6 @@
 ---
 
 ## 🗺️ Curriculum Roadmap
-
-<div align="center">
-
-| Week | Topic & Focus | Language | 📁 Folder |
-|:---:|:---|:---:|:---:|
-| **`00`** | Visual Logic & Abstraction | Scratch | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%200%20Scratch) |
-| **`01`** | Memory & Compilation | C | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%201%20C) |
-| **`02`** | Algorithms & Complexity | C / Arrays | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%202%20Arrays) |
-| **`03`** | Search & Sort | C / Algorithms | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%203%20Algorithms) |
-| **`04`** | Pointers & Hexadecimal | C / Memory | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%204%20Memory) |
-| **`05`** | Trees, Hash Tables, Tries | C / Data Structures | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%205%20Data%20Structures) |
-| **`06`** | High-Level Scripting | Python | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%206%20Python) |
-| **`07`** | Relational Databases | SQL / SQLite | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%207%20SQL) |
-| **`08`** | Frontend Architecture | HTML · CSS · JS | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript) |
-| **`09`** | Backend Web Frameworks | Flask · Python | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%209%20Flask) |
-| **`🏆 FINAL`** | Full-Stack Capstone — Octane Vault | Full Stack | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Week%2010%20The%20End/Final%20Project/Octane_Vault) |
-| **`🤖 AI`** | LLMs & Machine Learning | Python · AI | [**Open ↗**](https://github.com/bavish007/cs50x/tree/main/Artificial%20Intelligence) |
-
-</div>
 
 ```mermaid
 flowchart TD
