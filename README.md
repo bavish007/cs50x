@@ -4,8 +4,6 @@
   <br />
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Harvard_University_coat_of_arms.svg" width="130" alt="Harvard University Crest" />
   <br /><br />
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Crimson+Text&weight=700&size=52&duration=3000&pause=1500&color=A51C30&center=true&vCenter=true&width=950&height=100&lines=CS50x+%E2%80%94+Master+Vault;Harvard+University;Full-Stack+Engineering;Artificial+Intelligence" alt="CS50x Typing SVG" /></a>
-  <br />
   <sub><i>An introduction to the intellectual enterprises of computer science and the art of programming</i></sub>
   <br /><br />
 
@@ -212,7 +210,7 @@ graph TB
     style APP fill:#1a0a0a,stroke:#A51C30,stroke-width:2px,color:#f5f5f5
     style DATA fill:#0d1b0d,stroke:#2e7d32,stroke-width:2px,color:#a5d6a7
     style INTELLIGENCE fill:#0d1b2a,stroke:#1565c0,stroke-width:2px,color:#90caf9
-    style INFRA fill:#1a1a0a,stroke:#f57f17,stroke-width:2px,color:#fff9c4
+    style INFRA fill:#1a0a0a,stroke:#f57f17,stroke-width:2px,color:#fff9c4
     style AUTH fill:#1a0a0a,stroke:#A51C30,color:#f5f5f5
     style FE fill:#2d1b1b,stroke:#A51C30,color:#f5f5f5
     style BE fill:#1a0a0a,stroke:#A51C30,color:#f5f5f5
@@ -224,13 +222,7 @@ graph TB
 
 <div align="center">
 
-<a href="./Week%2010%20The%20End/Final%20Project/Octane_Vault">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=18&pause=3000&color=A51C30&center=true&vCenter=true&width=420&height=45&lines=📁+VIEW+FULL+PROJECT+→" alt="View Full Project" />
-</a>
-
-<br />
-
-[![View Full Project](https://img.shields.io/badge/EXPLORE_OCTANE_VAULT-VIEW_SOURCE_→-0D1117?style=for-the-badge&labelColor=A51C30&color=0D1117)](./Week%2010%20The%20End/Final%20Project/Octane_Vault)
+[![📁 View Full Project →](https://img.shields.io/badge/📁_VIEW_FULL_PROJECT_→-EXPLORE_OCTANE_VAULT-A51C30?style=for-the-badge&logoColor=white)](./Week%2010%20The%20End/Final%20Project/Octane_Vault)
 
 </div>
 
