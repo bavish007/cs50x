@@ -170,21 +170,76 @@ Building end-to-end web apps with Flask, Jinja2, and SQLite connected every prio
 
 ### Architecture
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                   OCTANE VAULT STACK                    │
-├────────────────────┬────────────────────────────────────┤
-│  Frontend          │  HTML5, CSS3, Bootstrap, JS         │
-│  Backend           │  Python 3, Flask, Jinja2            │
-│  Database          │  SQLite3 (cs50 library)             │
-│  AI Engine         │  Google Gemini API                  │
-│  Image Source      │  Wikipedia API                      │
-│  Auth              │  Flask-Session, bcrypt              │
-│  Deployment        │  Local / CS50 Codespace             │
-└────────────────────┴────────────────────────────────────┘
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#1a0a0a',
+  'primaryTextColor': '#f5f5f5',
+  'primaryBorderColor': '#A51C30',
+  'secondaryColor': '#0d1117',
+  'secondaryTextColor': '#C9D1D9',
+  'tertiaryColor': '#0d1b2a',
+  'tertiaryTextColor': '#90caf9',
+  'lineColor': '#A51C30',
+  'fontSize': '13px'
+}}}%%
+graph TB
+    subgraph CLIENT["🖥️  CLIENT LAYER"]
+        direction LR
+        FE["<b>Frontend</b><br/>HTML5 · CSS3<br/>Bootstrap · JS"]
+    end
+
+    subgraph APP["⚙️  APPLICATION LAYER"]
+        direction TB
+        BE["<b>Flask Backend</b><br/>Python 3 · Jinja2<br/>Routing · Sessions"]
+        AUTH["<b>Auth</b><br/>Flask-Session<br/>bcrypt"]
+    end
+
+    subgraph DATA["🗄️  DATA LAYER"]
+        direction LR
+        DB["<b>SQLite3</b><br/>cs50 library<br/>Relational DB"]
+    end
+
+    subgraph INTELLIGENCE["🤖  INTELLIGENCE LAYER"]
+        direction LR
+        AI["<b>Google Gemini API</b><br/>AI Auto-fill<br/>Spec Synthesis"]
+        IMG["<b>Wikipedia API</b><br/>Image Sourcing<br/>High-Res Assets"]
+    end
+
+    subgraph INFRA["🚀  DEPLOYMENT"]
+        direction LR
+        DEP["<b>CS50 Codespace</b><br/>Local · Cloud<br/>Flask Dev Server"]
+    end
+
+    CLIENT -->|"HTTP Request"| APP
+    APP -->|"Query / Write"| DATA
+    APP -->|"AI Prompt"| INTELLIGENCE
+    APP <-->|"Session / Auth"| AUTH
+    APP -->|"Serves"| CLIENT
+    INFRA -->|"Hosts"| APP
+
+    style CLIENT fill:#2d1b1b,stroke:#A51C30,stroke-width:2px,color:#f5f5f5
+    style APP fill:#1a0a0a,stroke:#A51C30,stroke-width:2px,color:#f5f5f5
+    style DATA fill:#0d1b0d,stroke:#2e7d32,stroke-width:2px,color:#a5d6a7
+    style INTELLIGENCE fill:#0d1b2a,stroke:#1565c0,stroke-width:2px,color:#90caf9
+    style INFRA fill:#1a0a0a,stroke:#f57f17,stroke-width:2px,color:#fff9c4
+    style AUTH fill:#1a0a0a,stroke:#A51C30,color:#f5f5f5
+    style FE fill:#2d1b1b,stroke:#A51C30,color:#f5f5f5
+    style BE fill:#1a0a0a,stroke:#A51C30,color:#f5f5f5
+    style DB fill:#0d1b0d,stroke:#2e7d32,color:#a5d6a7
+    style AI fill:#0d1b2a,stroke:#1565c0,color:#90caf9
+    style IMG fill:#0d1b2a,stroke:#1565c0,color:#90caf9
+    style DEP fill:#1a0a0a,stroke:#f57f17,color:#fff9c4
 ```
 
-📁 [**View Full Project →**](./Week%2010%20The%20End/Final%20Project/Octane_Vault)
+<div align="center">
+
+<a href="./Week%2010%20The%20End/Final%20Project/Octane_Vault">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=18&pause=2000&color=A51C30&center=true&vCenter=true&width=420&height=55&lines=📁+VIEW+FULL+PROJECT+→;EXPLORE+OCTANE+VAULT+→;OPEN+SOURCE+CODE+→" alt="View Full Project" />
+</a>
+
+[![View Full Project](https://img.shields.io/badge/📁_EXPLORE_OCTANE_VAULT-OPEN_SOURCE_CODE_→-0D1117?style=for-the-badge&labelColor=A51C30&color=0D1117)](./Week%2010%20The%20End/Final%20Project/Octane_Vault)
+
+</div>
 
 ---
 
@@ -384,7 +439,7 @@ This repository is licensed under the [MIT License](./LICENSE).
 
 <br />
 
-a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=EB+Garamond&weight=400&size=20&pause=1000&color=A51C30&center=true&vCenter=true&width=700&height=50&lines=This+is+CS50.+%E2%80%A2+Veritas.+%E2%80%A2+Ad+Meliora." alt="Footer Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=EB+Garamond&weight=400&size=20&pause=1000&color=A51C30&center=true&vCenter=true&width=700&height=50&lines=This+is+CS50.+%E2%80%A2+Veritas.+%E2%80%A2+Ad+Meliora." alt="Footer Typing SVG" /></a>
 
 <br />
 *Made with ❤️ and countless hours of debugging · Harvard University · CS50x*
@@ -393,4 +448,3 @@ a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp
 [⬆️ Back to Top](#top)
 
 </div>
-
