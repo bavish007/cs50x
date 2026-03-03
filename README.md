@@ -195,7 +195,17 @@ Building end-to-end web apps with Flask, Jinja2, and SQLite connected every prio
 ### Skills Covered in This Course
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#A51C30', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#8B0000', 'lineColor': '#C9D1D9', 'secondaryColor': '#1B4332', 'secondaryTextColor': '#ffffff', 'tertiaryColor': '#0D47A1', 'tertiaryTextColor': '#ffffff', 'fontSize': '14px'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#f7dcdc',
+  'primaryTextColor': '#2c0f0f',
+  'primaryBorderColor': '#8B0000',
+  'secondaryColor': '#dbe8ff',
+  'secondaryTextColor': '#102b54',
+  'tertiaryColor': '#e6f4ea',
+  'tertiaryTextColor': '#1d3a21',
+  'lineColor': '#8B0000',
+  'fontSize': '14px'
+}}}%%
 mindmap
   root((CS50x))
     Systems Programming
