@@ -4,19 +4,13 @@
   <br />
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Harvard_University_coat_of_arms.svg" width="130" alt="Harvard University Crest" />
   <br /><br />
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=EB+Garamond&weight=700&size=48&pause=1500&color=A51C30&center=true&vCenter=true&width=950&height=95&lines=CS50x+%E2%80%94+Master+Vault;Harvard+University;Full-Stack+Engineering;Artificial+Intelligence" alt="CS50x Typing SVG" /></a>
-  <br />
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=EB+Garamond&weight=400&size=22&pause=2000&color=8B949E&center=true&vCenter=true&width=900&height=45&lines=An+introduction+to+the+intellectual+enterprises+of+computer+science..." alt="Subtitle" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Crimson+Text&weight=700&size=52&duration=3000&pause=1500&color=A51C30&center=true&vCenter=true&width=950&height=100&lines=CS50x+%E2%80%94+Master+Vault;Harvard+University;Full-Stack+Engineering;Artificial+Intelligence" alt="CS50x Typing SVG" /></a>
   <br /><br />
 
   <img src="https://img.shields.io/badge/AUTHOR-BAVISH_REDDY-0D1117?style=plastic&labelColor=A51C30" alt="Author" />
   <img src="https://img.shields.io/badge/COURSE-CS50x_HARVARD-0D1117?style=plastic&labelColor=A51C30" alt="Course" />
   <img src="https://img.shields.io/badge/STATUS-COMPLETED-0D1117?style=plastic&labelColor=1B5E20" alt="Status" />
   <img src="https://img.shields.io/badge/LICENSE-MIT-0D1117?style=plastic&labelColor=0D47A1" alt="License" />
-  <br /><br />
-  <img src="https://img.shields.io/github/stars/bavish007/cs50x?style=social" alt="Stars" />
-  <img src="https://img.shields.io/github/forks/bavish007/cs50x?style=social" alt="Forks" />
-  <img src="https://img.shields.io/github/watchers/bavish007/cs50x?style=social" alt="Watchers" />
 </div>
 
 <br />
@@ -27,13 +21,18 @@
 
 <div align="center">
 
-| | Section | | Section |
-|:---:|:---|:---:|:---|
-| 🗺️ | [Curriculum Roadmap](#️-curriculum-roadmap) | 📂 | [Weekly Breakdown](#-weekly-breakdown) |
-| 💡 | [Learning Moments](#-highlighted-learning-moments) | 🏎️ | [Final Project](#️-final-project-octane-vault) |
-| 🪐 | [What You Can Learn](#-what-you-can-learn-from-cs50x) | 📖 | [Study Guide & Resources](#-study-guide--resources) |
-| 🎓 | [Certificate](#-certificate--verification) | ⚖️ | [License](#️-license--academic-honesty) |
-| 💬 | [Get in Touch](#-get-in-touch) | | |
+| | Section | Description |
+|:---:|:---|:---|
+| 🗺️ | [Curriculum Roadmap](#️-curriculum-roadmap) | Complete week-by-week course progression |
+| 📂 | [Weekly Breakdown](#-weekly-breakdown) | Problem sets, labs & tech stacks per module |
+| 💡 | [Learning Moments](#-highlighted-learning-moments) | Key insights from each phase of the course |
+| 🏎️ | [Final Project](#️-final-project-octane-vault) | Octane Vault — AI-powered automotive platform |
+| 🪐 | [What You Can Learn](#-what-you-can-learn-from-cs50x) | Skills & technologies covered in CS50x |
+| 📖 | [Study Guide & Resources](#-study-guide--resources) | Official links, tools & weekly takeaways |
+| 📊 | [Repository Analytics](#-repository-analytics) | GitHub stats, streaks & language breakdown |
+| 🎓 | [Certificate](#-certificate--verification) | Verified Harvard CS50x certificate |
+| ⚖️ | [License](#️-license--academic-honesty) | MIT License & academic honesty policy |
+| 💬 | [Get in Touch](#-get-in-touch) | GitHub & LinkedIn contact links |
 
 </div>
 
@@ -381,6 +380,7 @@ This repository is licensed under the [MIT License](./LICENSE).
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=EB+Garamond&weight=400&size=20&pause=1000&color=A51C30&center=true&vCenter=true&width=700&height=50&lines=This+is+CS50.+%E2%80%A2+Veritas.+%E2%80%A2+Ad+Meliora." alt="Footer Typing SVG" /></a>
 
 <br />
+
 *Made with ❤️ and countless hours of debugging · Harvard University · CS50x*
 
 <br />
